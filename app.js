@@ -19,7 +19,7 @@ const topicHierarchy = [
   ["Sketch Synthesis", 0], ["Raster Sketch Extraction", 1], ["Vector Sketch Generation", 1],
   ["Non-Photorealistic Rendering", 0]
 ];
-const state = { rows: [], filtered: [], page: 1, sort: "Year", direction: "desc", filters: { year: "", venue: "", label: "" }, query: "" };
+const state = { rows: [], filtered: [], page: 1, sort: "Year", direction: "desc", filters: { yearFrom: "", yearTo: "", venues: new Set(), labels: new Set() }, query: "" };
 const $ = (id) => document.getElementById(id);
 
 function parseCSV(text) {
@@ -56,8 +56,7 @@ function getVenueTier(row) {
   if (venue === "CSCW") return bibtexType(row) === "article" ? "B Tier" : "A Tier";
   return venueTierOrder.find((tier) => tier !== "Others" && venueTiers[tier].has(venue)) || "Others";
 }
-function fillVenueSelect(select) {
-  const current = select.value;
+function fillVenueOptions() {
   venueFilterOptions.clear();
   const grouped = Object.fromEntries(venueTierOrder.map((tier) => [tier, new Map()]));
   for (const row of state.rows) {
@@ -68,40 +67,92 @@ function fillVenueSelect(select) {
     if (!grouped[tier].has(key)) grouped[tier].set(key, venue);
   }
   let optionIndex = 0;
-  const options = venueTierOrder.map((tier) => {
+  $("venue-options-list").innerHTML = venueTierOrder.map((tier) => {
     const venues = [...grouped[tier].values()].sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
     if (!venues.length) return "";
-    const tierOptions = venues.map((venue) => {
+    const items = venues.map((venue) => {
       const value = `venue-${optionIndex++}`;
       venueFilterOptions.set(value, { venue, tier });
-      return `<option value="${value}">${escapeHTML(venue)}</option>`;
+      return `<label class="filter-option"><input type="checkbox" value="${value}" data-venue-check><span>${escapeHTML(venue)}</span></label>`;
     }).join("");
-    return `<optgroup label="${tier}">${tierOptions}</optgroup>`;
+    return `<section class="filter-option-group"><h3>${tier}</h3>${items}</section>`;
   }).join("");
-  select.innerHTML = `<option value="">All venues</option>${options}`;
-  if (venueFilterOptions.has(current)) select.value = current;
+  syncMultiSelectControls();
 }
-function fillTopicSelect(select, label) {
-  const current = select.value;
-  const values = topicHierarchy.map(([topic]) => topic);
-  const options = topicHierarchy.map(([topic, depth]) => {
-    const indent = "&nbsp;".repeat(depth * 3) + (depth ? "↳ " : "");
-    return `<option value="${escapeHTML(topic)}">${indent}${escapeHTML(topic)}</option>`;
-  }).join("");
-  select.innerHTML = `<option value="">${label}</option>${options}`;
-  if (values.includes(current)) select.value = current;
+function fillTopicOptions() {
+  $("topic-options-list").innerHTML = topicHierarchy.map(([topic, depth]) =>
+    `<label class="topic-filter-option" data-depth="${depth}"><input type="checkbox" value="${escapeHTML(topic)}" data-topic-check><span>${escapeHTML(topic)}</span></label>`
+  ).join("");
+  syncMultiSelectControls();
+}
+function fillYearRange(years) {
+  const ascending = [...years].sort((a, b) => Number(a) - Number(b));
+  fillSelect($("year-from"), ascending, "From year");
+  fillSelect($("year-to"), ascending, "To year");
+}
+function syncMultiSelectControls() {
+  document.querySelectorAll("[data-venue-check]").forEach((checkbox) => { checkbox.checked = state.filters.venues.has(checkbox.value); });
+  document.querySelectorAll("[data-topic-check]").forEach((checkbox) => { checkbox.checked = state.filters.labels.has(checkbox.value); });
+  const venueLabel = state.filters.venues.size ? `${state.filters.venues.size} venue${state.filters.venues.size === 1 ? "" : "s"} selected` : "All venues";
+  const topicLabel = state.filters.labels.size ? `${state.filters.labels.size} topic${state.filters.labels.size === 1 ? "" : "s"} selected` : "All topics";
+  $("venue-trigger-label").textContent = venueLabel;
+  $("topic-trigger-label").textContent = topicLabel;
+  $("venue-trigger").title = [...state.filters.venues].map((value) => venueFilterOptions.get(value)?.venue).filter(Boolean).join(", ") || "All venues";
+  $("topic-trigger").title = [...state.filters.labels].join(", ") || "All topics";
+}
+function readChecked(id) { return new Set([...$(id).querySelectorAll("input:checked")].map((checkbox) => checkbox.value)); }
+function closeFilterPopovers() {
+  ["venue", "topic"].forEach((kind) => {
+    $(`${kind}-popover`).hidden = true;
+    $(`${kind}-trigger`).setAttribute("aria-expanded", "false");
+  });
+}
+function toggleFilterPopover(kind) {
+  const popover = $(`${kind}-popover`);
+  const shouldOpen = popover.hidden;
+  closeFilterPopovers();
+  popover.hidden = !shouldOpen;
+  $(`${kind}-trigger`).setAttribute("aria-expanded", String(shouldOpen));
+}
+function filterMenuOptions(kind, query) {
+  const normalized = query.trim().toLocaleLowerCase();
+  if (kind === "venue") {
+    document.querySelectorAll(".filter-option-group").forEach((group) => {
+      let visible = false;
+      group.querySelectorAll(".filter-option").forEach((option) => {
+        const matches = option.textContent.toLocaleLowerCase().includes(normalized);
+        option.hidden = !matches;
+        visible ||= matches;
+      });
+      group.hidden = !visible;
+    });
+  } else {
+    document.querySelectorAll(".topic-filter-option").forEach((option) => {
+      option.hidden = !option.textContent.toLocaleLowerCase().includes(normalized);
+    });
+  }
+}
+function onYearRangeChange(event) {
+  const from = $("year-from"); const to = $("year-to");
+  if (from.value && to.value && Number(from.value) > Number(to.value)) {
+    if (event.target === from) to.value = from.value;
+    else from.value = to.value;
+  }
+  updateFilters();
 }
 function escapeHTML(value) { return String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]); }
 function safeURL(value) { try { const url = new URL(value); return ["http:", "https:"].includes(url.protocol) ? url.href : ""; } catch { return ""; } }
 function render() {
   const q = state.query.toLocaleLowerCase();
   state.filtered = state.rows.filter((row) => {
-    if (state.filters.year && clean(row[columns.year]) !== state.filters.year) return false;
-    if (state.filters.venue) {
-      const selectedVenue = venueFilterOptions.get(state.filters.venue);
-      if (!selectedVenue || clean(row[columns.venue]) !== selectedVenue.venue || getVenueTier(row) !== selectedVenue.tier) return false;
-    }
-    if (state.filters.label && !splitLabels(row[columns.labels]).includes(state.filters.label)) return false;
+    const year = Number(row[columns.year]);
+    if (state.filters.yearFrom && year < Number(state.filters.yearFrom)) return false;
+    if (state.filters.yearTo && year > Number(state.filters.yearTo)) return false;
+    if (state.filters.venues.size && ![...state.filters.venues].some((value) => {
+      const selected = venueFilterOptions.get(value);
+      return selected && clean(row[columns.venue]) === selected.venue && getVenueTier(row) === selected.tier;
+    })) return false;
+    if (state.filters.labels.size && !splitLabels(row[columns.labels]).some((label) => state.filters.labels.has(label))) return false;
     return !q || Object.values(row).some((value) => String(value).toLocaleLowerCase().includes(q));
   });
   const key = state.sort; const direction = state.direction === "asc" ? 1 : -1;
@@ -122,11 +173,14 @@ function render() {
     button.querySelector(".sort-indicator").textContent = active ? (state.direction === "asc" ? "↑" : "↓") : "↕";
     button.setAttribute("aria-sort", active ? (state.direction === "asc" ? "ascending" : "descending") : "none");
   });
-  const active = Object.entries(state.filters).filter(([, value]) => value);
-  $("active-filters").innerHTML = active.map(([key, value]) => {
-    const label = key === "venue" ? ($("venue-filter").selectedOptions[0]?.textContent || value) : value;
-    return `<button class="filter-chip" data-clear="${key}">${escapeHTML(label)} <span>×</span></button>`;
-  }).join("");
+  const chips = [];
+  if (state.filters.yearFrom || state.filters.yearTo) chips.push(`<button class="filter-chip" data-clear="year">${escapeHTML(state.filters.yearFrom || "Any")}–${escapeHTML(state.filters.yearTo || "Any")} <span>×</span></button>`);
+  for (const value of state.filters.venues) {
+    const selected = venueFilterOptions.get(value);
+    if (selected) chips.push(`<button class="filter-chip" data-clear="venue" data-value="${value}">${escapeHTML(selected.venue)} <span>×</span></button>`);
+  }
+  for (const label of state.filters.labels) chips.push(`<button class="filter-chip" data-clear="topic" data-value="${escapeHTML(label)}">${escapeHTML(label)} <span>×</span></button>`);
+  $("active-filters").innerHTML = chips.join("");
 }
 function renderRow(row) {
   const title = clean(row[columns.title]) || "Untitled paper"; const authors = clean(row[columns.authors]) || "Author details unavailable";
@@ -137,15 +191,23 @@ function renderRow(row) {
   const labels = splitLabels(row[columns.labels]).map((label) => `<button class="topic" data-topic="${escapeHTML(label)}">${escapeHTML(label)}</button>`).join("");
   return `<tr><td class="title-cell"><span class="paper-index">${String(state.filtered.indexOf(row) + 1).padStart(2, "0")}</span><div><a class="paper-title" href="${escapeHTML(paperURL || doiURL || "#")}" ${paperURL || doiURL ? 'target="_blank" rel="noopener noreferrer"' : ""}>${escapeHTML(title)}</a>${doi ? `<span class="doi-mobile">${escapeHTML(doi)}</span>` : ""}</div></td><td class="authors-cell" title="${escapeHTML(authors)}">${escapeHTML(authors)}</td><td class="year-cell">${escapeHTML(year || "—")}</td><td class="venue-cell">${venue ? `<span class="venue-mark">${escapeHTML(venue.slice(0, 1).toUpperCase())}</span><span>${escapeHTML(venue)}</span>` : "—"}</td><td class="topics-cell">${labels || '<span class="muted">—</span>'}</td><td class="links-cell">${links || '<span class="muted">—</span>'}</td></tr>`;
 }
-function updateFilters() { state.filters = { year: $("year-filter").value, venue: $("venue-filter").value, label: $("label-filter").value }; state.page = 1; render(); }
+function updateFilters() {
+  state.filters.yearFrom = $("year-from").value;
+  state.filters.yearTo = $("year-to").value;
+  state.filters.venues = readChecked("venue-options-list");
+  state.filters.labels = readChecked("topic-options-list");
+  state.page = 1;
+  syncMultiSelectControls();
+  render();
+}
 async function init() {
   try {
     const response = await fetch("papers.csv"); if (!response.ok) throw new Error("The dataset could not be loaded.");
     state.rows = parseCSV(await response.text());
     if (!state.rows.length) throw new Error("No papers were found in the dataset.");
-    fillSelect($("year-filter"), uniqueValues(columns.year).sort((a, b) => Number(b) - Number(a)), "All years");
-    fillVenueSelect($("venue-filter"));
-    fillTopicSelect($("label-filter"), "All topics");
+    fillYearRange(uniqueValues(columns.year));
+    fillVenueOptions();
+    fillTopicOptions();
     const years = uniqueValues(columns.year).map(Number).filter(Boolean); $("year-range").textContent = years.length ? `${Math.min(...years)}—${Math.max(...years)}` : "All years";
     render();
   } catch (error) {
@@ -154,11 +216,57 @@ async function init() {
   }
 }
 $("search").addEventListener("input", (event) => { state.query = event.target.value.trim(); state.page = 1; render(); });
-["year-filter", "venue-filter", "label-filter"].forEach((id) => $(id).addEventListener("change", updateFilters));
-$("reset").addEventListener("click", () => { $("search").value = ""; ["year-filter", "venue-filter", "label-filter"].forEach((id) => { $(id).value = ""; }); state.query = ""; state.filters = { year: "", venue: "", label: "" }; state.page = 1; render(); });
+$("year-from").addEventListener("change", onYearRangeChange);
+$("year-to").addEventListener("change", onYearRangeChange);
+$("venue-options-list").addEventListener("change", updateFilters);
+$("topic-options-list").addEventListener("change", updateFilters);
+$("venue-trigger").addEventListener("click", () => toggleFilterPopover("venue"));
+$("topic-trigger").addEventListener("click", () => toggleFilterPopover("topic"));
+document.querySelectorAll("[data-filter-search]").forEach((input) => input.addEventListener("input", () => filterMenuOptions(input.dataset.filterSearch, input.value)));
+document.querySelectorAll("[data-clear-group]").forEach((button) => button.addEventListener("click", () => {
+  const kind = button.dataset.clearGroup;
+  if (kind === "venue") state.filters.venues.clear();
+  if (kind === "topic") state.filters.labels.clear();
+  syncMultiSelectControls();
+  state.page = 1;
+  render();
+}));
+$("reset").addEventListener("click", () => {
+  $("search").value = "";
+  document.querySelectorAll("[data-filter-search]").forEach((input) => { input.value = ""; filterMenuOptions(input.dataset.filterSearch, ""); });
+  $("year-from").value = "";
+  $("year-to").value = "";
+  state.query = "";
+  state.filters = { yearFrom: "", yearTo: "", venues: new Set(), labels: new Set() };
+  syncMultiSelectControls();
+  closeFilterPopovers();
+  state.page = 1;
+  render();
+});
 document.querySelectorAll(".sort-button").forEach((button) => button.addEventListener("click", () => { const key = button.dataset.sort; if (state.sort === key) state.direction = state.direction === "asc" ? "desc" : "asc"; else { state.sort = key; state.direction = key === columns.year ? "desc" : "asc"; } render(); }));
 $("prev").addEventListener("click", () => { state.page--; render(); }); $("next").addEventListener("click", () => { state.page++; render(); });
-$("active-filters").addEventListener("click", (event) => { const button = event.target.closest("[data-clear]"); if (button) { const key = button.dataset.clear; const id = { year: "year-filter", venue: "venue-filter", label: "label-filter" }[key]; $(id).value = ""; updateFilters(); } });
-$("papers-body").addEventListener("click", (event) => { const button = event.target.closest("[data-topic]"); if (button) { $("label-filter").value = button.dataset.topic; updateFilters(); window.scrollTo({ top: document.querySelector(".library").offsetTop, behavior: "smooth" }); } });
-document.addEventListener("keydown", (event) => { if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") { event.preventDefault(); $("search").focus(); } if (event.key === "Escape") $("search").blur(); });
+$("active-filters").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-clear]");
+  if (!button) return;
+  if (button.dataset.clear === "year") { $("year-from").value = ""; $("year-to").value = ""; }
+  if (button.dataset.clear === "venue") state.filters.venues.delete(button.dataset.value);
+  if (button.dataset.clear === "topic") state.filters.labels.delete(button.dataset.value);
+  syncMultiSelectControls();
+  state.page = 1;
+  render();
+});
+$("papers-body").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-topic]");
+  if (!button) return;
+  state.filters.labels.add(button.dataset.topic);
+  syncMultiSelectControls();
+  state.page = 1;
+  render();
+  window.scrollTo({ top: document.querySelector(".library").offsetTop, behavior: "smooth" });
+});
+document.addEventListener("click", (event) => { if (!event.target.closest(".filter-menu")) closeFilterPopovers(); });
+document.addEventListener("keydown", (event) => {
+  if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") { event.preventDefault(); $("search").focus(); }
+  if (event.key === "Escape") { closeFilterPopovers(); $("search").blur(); }
+});
 init();

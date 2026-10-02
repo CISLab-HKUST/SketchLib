@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=topics-full-2" />
-  <script src="app.js?v=ccf-venue-tiers-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=multi-filters-1" />
+  <script src="app.js?v=multi-filters-1" defer></script>
 </head>
 <body>
   <div class="page-shell">
@@ -49,9 +49,29 @@
 
         <div class="tools" role="search">
           <label class="search-box"><span class="search-icon" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search titles, authors, topics…" autocomplete="off" /><kbd>⌘ K</kbd></label>
-          <label class="select-wrap"><span class="sr-only">Filter by year</span><select id="year-filter"><option value="">All years</option></select><span class="select-arrow">⌄</span></label>
-          <label class="select-wrap"><span class="sr-only">Filter by venue</span><select id="venue-filter"><option value="">All venues</option></select><span class="select-arrow">⌄</span></label>
-          <label class="select-wrap label-filter-wrap"><span class="sr-only">Filter by topic</span><select id="label-filter"><option value="">All topics</option></select><span class="select-arrow">⌄</span></label>
+          <div class="year-range-filter" role="group" aria-label="Filter by year range">
+            <label class="range-field"><span class="sr-only">From year</span><select id="year-from"><option value="">From year</option></select><span class="select-arrow">⌄</span></label>
+            <span class="range-dash" aria-hidden="true">–</span>
+            <label class="range-field"><span class="sr-only">To year</span><select id="year-to"><option value="">To year</option></select><span class="select-arrow">⌄</span></label>
+          </div>
+          <div class="filter-menu venue-menu">
+            <button class="filter-trigger" id="venue-trigger" type="button" aria-expanded="false" aria-controls="venue-popover"><span id="venue-trigger-label">All venues</span><span class="filter-chevron" aria-hidden="true">⌄</span></button>
+            <div class="filter-popover" id="venue-popover" hidden>
+              <div class="filter-popover-heading"><span>Publication venues</span><button type="button" data-clear-group="venue">Clear</button></div>
+              <p class="filter-hint">Matches any selected venue</p>
+              <input class="filter-search" type="search" data-filter-search="venue" placeholder="Find a venue…" autocomplete="off" aria-label="Find a venue" />
+              <div class="filter-options" id="venue-options-list" role="group" aria-label="Publication venues"></div>
+            </div>
+          </div>
+          <div class="filter-menu topic-menu label-filter-wrap">
+            <button class="filter-trigger" id="topic-trigger" type="button" aria-expanded="false" aria-controls="topic-popover"><span id="topic-trigger-label">All topics</span><span class="filter-chevron" aria-hidden="true">⌄</span></button>
+            <div class="filter-popover" id="topic-popover" hidden>
+              <div class="filter-popover-heading"><span>Topics</span><button type="button" data-clear-group="topic">Clear</button></div>
+              <p class="filter-hint">Matches any selected topic</p>
+              <input class="filter-search" type="search" data-filter-search="topic" placeholder="Find a topic…" autocomplete="off" aria-label="Find a topic" />
+              <div class="filter-options topic-options" id="topic-options-list" role="group" aria-label="Topics"></div>
+            </div>
+          </div>
           <button class="reset-button" id="reset" type="button">Reset <span aria-hidden="true">↺</span></button>
         </div>
 
