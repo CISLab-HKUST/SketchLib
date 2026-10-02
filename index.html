@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f5f1" />
+  <title>SketchLib — Research Library</title>
+  <meta name="description" content="A searchable library of sketch-related research papers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=topics-full-2" />
+  <script src="app.js?v=ccf-venue-tiers-1" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="SketchLib home"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><span>sketch<span class="wordmark-light">lib</span></span></a>
+      <div class="header-note"><span class="live-dot"></span> An open index of sketch research</div>
+      <a class="header-link" href="papers.csv" download>Download CSV <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span>FIELD NOTES</span><span class="eyebrow-line"></span><span>EST. 2026</span></p>
+          <h1>Ideas begin<br />with a <em>line.</em></h1>
+          <p class="intro">A living collection of research on sketching, drawing, and visual thinking. Find a paper, follow a thread, start somewhere.</p>
+          <div class="hero-meta"><span class="hero-count" id="hero-count">—</span><span>papers in the collection</span><span class="meta-divider"></span><span>Curated for curious minds</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 520 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="draw draw-one" d="M55 259C96 208 117 124 177 112C216 104 227 151 203 185C181 216 134 246 140 266C147 290 204 272 233 245C265 215 270 157 306 138C333 123 353 143 340 169C322 204 295 227 304 247C313 269 354 253 380 232C416 203 419 161 460 154" />
+            <path class="draw draw-two" d="M69 278C116 219 126 149 174 132C211 119 224 161 198 194M323 130C343 112 376 112 389 136C404 164 375 202 359 224M387 264C413 247 432 222 442 198" />
+            <path class="scribble" d="M336 65C349 47 383 43 396 58C408 72 402 96 388 105C374 114 354 108 351 94C348 80 367 73 377 81" />
+            <path class="guide" d="M58 300H464M55 47V298" />
+            <circle class="point" cx="140" cy="266" r="4" /><circle class="point" cx="304" cy="247" r="4" /><circle class="point" cx="460" cy="154" r="4" />
+            <path class="spark" d="M236 66V82M228 74H244M430 97V111M423 104H437" />
+          </svg>
+          <span class="art-caption">FIG. 01 — THE FIRST MARK</span>
+        </div>
+      </section>
+
+      <section class="library" aria-labelledby="library-title">
+        <div class="section-heading">
+          <div><p class="eyebrow section-eyebrow">THE COLLECTION</p><h2 id="library-title">Browse the library<span class="period">.</span></h2></div>
+          <div class="collection-stats"><strong id="result-count">—</strong><span>results</span><span class="stat-divider"></span><span id="year-range">—</span></div>
+        </div>
+
+        <div class="tools" role="search">
+          <label class="search-box"><span class="search-icon" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search titles, authors, topics…" autocomplete="off" /><kbd>⌘ K</kbd></label>
+          <label class="select-wrap"><span class="sr-only">Filter by year</span><select id="year-filter"><option value="">All years</option></select><span class="select-arrow">⌄</span></label>
+          <label class="select-wrap"><span class="sr-only">Filter by venue</span><select id="venue-filter"><option value="">All venues</option></select><span class="select-arrow">⌄</span></label>
+          <label class="select-wrap label-filter-wrap"><span class="sr-only">Filter by topic</span><select id="label-filter"><option value="">All topics</option></select><span class="select-arrow">⌄</span></label>
+          <button class="reset-button" id="reset" type="button">Reset <span aria-hidden="true">↺</span></button>
+        </div>
+
+        <div class="active-filters" id="active-filters" aria-live="polite"></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr>
+              <th class="title-col"><button class="sort-button" data-sort="Paper Title">PAPER <span class="sort-indicator"></span></button></th>
+              <th class="authors-col"><button class="sort-button" data-sort="Authors">AUTHORS <span class="sort-indicator"></span></button></th>
+              <th class="year-col"><button class="sort-button" data-sort="Year">YEAR <span class="sort-indicator"></span></button></th>
+              <th class="venue-col"><button class="sort-button" data-sort="Publication Venue">VENUE <span class="sort-indicator"></span></button></th>
+              <th class="topics-col">TOPICS</th>
+              <th class="links-col">LINKS</th>
+            </tr></thead>
+            <tbody id="papers-body"><tr><td colspan="6" class="loading"><span class="loader"></span>Preparing the collection…</td></tr></tbody>
+          </table>
+        </div>
+        <div class="table-footer"><span id="range-label">Loading papers</span><div class="pagination"><button id="prev" aria-label="Previous page" disabled>←</button><span id="page-label">1 / 1</span><button id="next" aria-label="Next page" disabled>→</button></div></div>
+      </section>
+    </main>
+
+    <footer><a class="wordmark footer-mark" href="#top"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><span>sketch<span class="wordmark-light">lib</span></span></a><span>Made for the love of lines.</span><a href="papers.csv" download>Open dataset ↗</a></footer>
+  </div>
+</body>
+</html>
