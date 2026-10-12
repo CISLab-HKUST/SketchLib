@@ -6923,7 +6923,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = July,
   pages = {1654–1659}
 }",Sketch Understanding; Sketch Segmentation,
-10.1145/3306346.3322970,SurfaceBrush: from Virtual Reality Drawings to Manifold Surfaces,"Enrique Rosales, Jafet Rodriguez, Alla Sheffer",2019,TOG,https://doi.org/10.48550/arxiv.1904.12297,"@article{Rosales_2019,
+10.1145/3306346.3322970,SurfaceBrush: from Virtual Reality Drawings to Manifold Surfaces,"Enrique Rosales, Jafet Rodriguez, Alla Sheffer",2019,TOG,https://doi.org/10.1145/3306346.3322970,"@article{Rosales_2019,
   title = {SurfaceBrush: from virtual reality drawings to manifold surfaces},
   volume = {38},
   ISSN = {1557-7368},
