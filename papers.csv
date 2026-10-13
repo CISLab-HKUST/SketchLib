@@ -1,5 +1,5 @@
 ﻿DOI,Paper Title,Authors,Year,Publication Venue,URL,BibTeX,Labels,Selected
-10.1145/3799902.3811211,2D Gaussian Splatting for Bézier Spline Line Art Vectorization,"Tianhao Chen, Clara Fernandez, Marteinn Oskarsson, Chuck Tappan, Olga Sorkine-Hornung, Markus Gross, Christopher Schroers, Abdelaziz Djelouah",2026,SIGGRAPH,https://s2026.conference-schedule.org/session/?sess=sess116,"@inproceedings{Chen_2026,
+10.1145/3799902.3811211,2D Gaussian Splatting for Bézier Spline Line Art Vectorization,"Tianhao Chen, Clara Fernandez, Marteinn Oskarsson, Chuck Tappan, Olga Sorkine-Hornung, Markus Gross, Christopher Schroers, Abdelaziz Djelouah",2026,SIGGRAPH,https://igl.ethz.ch/projects/2DGS-vectorization/,"@inproceedings{Chen_2026,
   series = {SIGGRAPH Conference Papers ’26},
   title = {2D Gaussian Splatting for Bézier Spline Line Art Vectorization},
   url = {http://dx.doi.org/10.1145/3799902.3811211},
@@ -23,7 +23,7 @@
   year = {2026},
   month = May
 }",Sketching and Thinking,Yes
-10.1145/3811364,LayerInbetween: Occlusion-Aware Stroke Correspondence and Inbetweening with Automatic Layering,"Haoran Mo, Zhongyue Guan, Yixin Hu, Zeyu Wang",2026,TOG,https://dl.acm.org/doi/10.1145/3811364,"@article{Mo_2026,
+10.1145/3811364,LayerInbetween: Occlusion-Aware Stroke Correspondence and Inbetweening with Automatic Layering,"Haoran Mo, Zhongyue Guan, Yixin Hu, Zeyu Wang",2026,TOG,https://github.com/MarkMoHR/LayerInbetween,"@article{Mo_2026,
   title = {LayerInbetween: Occlusion-Aware Stroke Correspondence and Inbetweening with Automatic Layering},
   volume = {45},
   ISSN = {1557-7368},
@@ -51,7 +51,7 @@
   month = July,
   pages = {1–12}
 }",Sketch Rendering; Sketch-Based Image Synthesis; Sketch-Based Image Generation; Diffusion-Based Methods; Sketch-Based Modeling; Geometry-Based Methods,
-10.1145/3799902.3811227,NeuralSketch2Surf: Fast Neural Surfacing of Unoriented 3D Sketches,"Hongsheng Ye, Anandhu Sureshkumar, Zhonghan Wang, Stefanie Hahmann, Marie-Paule Cani, Georges-Pierre Bonneau, Amal Dev Parakkat",2026,SIGGRAPH,https://s2026.conference-schedule.org/session/?sess=sess116,"@inproceedings{Ye_2026,
+10.1145/3799902.3811227,NeuralSketch2Surf: Fast Neural Surfacing of Unoriented 3D Sketches,"Hongsheng Ye, Anandhu Sureshkumar, Zhonghan Wang, Stefanie Hahmann, Marie-Paule Cani, Georges-Pierre Bonneau, Amal Dev Parakkat",2026,SIGGRAPH,https://github.com/Hongsheng-Y/NeuralSketch2Surf/,"@inproceedings{Ye_2026,
   series = {SIGGRAPH Conference Papers ’26},
   title = {NeuralSketch2Surf: Fast Neural Surfacing of Unoriented 3D Sketches},
   url = {http://dx.doi.org/10.1145/3799902.3811227},
@@ -91,7 +91,7 @@
   month = July,
   pages = {1–19}
 }",Sketch Processing; Vectorization,
-10.1145/3811375,Sketch2Arti: Sketch-Based Articulation Modeling of CAD Objects,"Yi Yang, Hao Pan, Yijing Cui, Alla Sheffer, Changjian Li",2026,TOG,https://s2026.conference-schedule.org/session/?sess=sess116,"@article{Yang_2026,
+10.1145/3811375,Sketch2Arti: Sketch-Based Articulation Modeling of CAD Objects,"Yi Yang, Hao Pan, Yijing Cui, Alla Sheffer, Changjian Li",2026,TOG,https://owu.terracat.net/Sketch2Arti/?__owu_origin_v1=aHR0cHM6Ly9hcmxvLXlhbmcuZ2l0aHViLmlv,"@article{Yang_2026,
   title = {Sketch2Arti: Sketch-based Articulation Modeling of CAD Objects},
   volume = {45},
   ISSN = {1557-7368},
@@ -671,7 +671,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   year = {2025},
   pages = {144745–144769}
 }",3D Sketching; Sketching in VR/AR; Sketch-Based Modeling,
-10.1145/3757377.3763828,AutoSketch: VLM-assisted Style-Aware Vector Sketch Completion,"Hsiao-Yuan Chin, I-Chao Shen, Yi-Ting Chiu, Ariel Shamir, Bing-Yu Chen",2025,SIGGRAPH Asia,https://dl.acm.org/doi/10.1145/3757377.3763828,"@inproceedings{Chin_2025,
+10.1145/3757377.3763828,AutoSketch: VLM-assisted Style-Aware Vector Sketch Completion,"Hsiao-Yuan Chin, I-Chao Shen, Yi-Ting Chiu, Ariel Shamir, Bing-Yu Chen",2025,SIGGRAPH Asia,https://jdily.github.io/autosketch.github.io/,"@inproceedings{Chin_2025,
   series = {SA Conference Papers ’25},
   title = {AutoSketch: VLM-assisted Style-Aware Vector Sketch Completion},
   url = {http://dx.doi.org/10.1145/3757377.3763828},
@@ -684,7 +684,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   pages = {1–11},
   collection = {SA Conference Papers ’25}
 }",Sketch Processing; Vectorization,Yes
-10.1145/3757377.3763902,Capturing Non-Linear Human Perspective in Line Drawings,"Jinfan Yang, Leo Foord-Kelcey, Suzuran Takikawa, Nicholas Vining, Niloy Mitra, Alla Sheffer",2025,SIGGRAPH Asia,https://dl.acm.org/doi/10.1145/3757377.3763902,"@inproceedings{Yang_2025,
+10.1145/3757377.3763902,Capturing Non-Linear Human Perspective in Line Drawings,"Jinfan Yang, Leo Foord-Kelcey, Suzuran Takikawa, Nicholas Vining, Niloy Mitra, Alla Sheffer",2025,SIGGRAPH Asia,https://discovery.ucl.ac.uk/id/eprint/10220300/,"@inproceedings{Yang_2025,
   series = {SA Conference Papers ’25},
   title = {Capturing Non-Linear Human Perspective in Line Drawings},
   url = {http://dx.doi.org/10.1145/3757377.3763902},
@@ -800,7 +800,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   pages = {1–10},
   collection = {SIGGRAPH Conference Papers ’25}
 }",Sketch Understanding; Sketch Segmentation,
-10.1109/iccv51701.2025.01011,LayerAnimate: Layer-Level Control for Animation,"Yuxue Yang, Lue Fan, Zuzeng Lin, Feng Wang, Zhaoxiang Zhang",2025,ICCV,https://doi.org/10.1109/iccv51701.2025.01011,"@inproceedings{Yang_2025,
+10.1109/iccv51701.2025.01011,LayerAnimate: Layer-Level Control for Animation,"Yuxue Yang, Lue Fan, Zuzeng Lin, Feng Wang, Zhaoxiang Zhang",2025,ICCV,https://github.com/IamCreateAI/LayerAnimate,"@inproceedings{Yang_2025,
   title = {LayerAnimate: Layer-Level Control for Animation},
   url = {http://dx.doi.org/10.1109/iccv51701.2025.01011},
   DOI = {10.1109/iccv51701.2025.01011},
@@ -1050,7 +1050,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   month = July,
   pages = {5397–5413}
 }",Sketch Processing; Vectorization,Yes
-10.1145/3721238.3730612,SwiftSketch: a Diffusion Model for Image-to-Vector Sketch Generation,"Ellie Arar, Yarden Frenkel, Daniel Cohen-Or, Ariel Shamir, Yael Vinker",2025,SIGGRAPH,https://doi.org/10.1145/3721238.3730612,"@inproceedings{Arar_2025,
+10.1145/3721238.3730612,SwiftSketch: a Diffusion Model for Image-to-Vector Sketch Generation,"Ellie Arar, Yarden Frenkel, Daniel Cohen-Or, Ariel Shamir, Yael Vinker",2025,SIGGRAPH,https://swiftsketch.github.io/,"@inproceedings{Arar_2025,
   series = {SIGGRAPH Conference Papers ’25},
   title = {SwiftSketch: A Diffusion Model for Image-to-Vector Sketch Generation},
   url = {http://dx.doi.org/10.1145/3721238.3730612},
@@ -1111,7 +1111,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   pages = {1260–1268},
   collection = {IJCAI-2025}
 }",Sketch Animation,
-10.1109/TVCG.2025.3624800,DoodleAssist: Progressive Interactive Line Art Generation with Latent Distribution Alignment,"Haoran Mo, Yulin Shen, Edgar Simo-Serra, Zeyu Wang",2026,TVCG,https://doi.org/10.1109/TVCG.2025.3624800,"@article{Mo_2026,
+10.1109/TVCG.2025.3624800,DoodleAssist: Progressive Interactive Line Art Generation with Latent Distribution Alignment,"Haoran Mo, Yulin Shen, Edgar Simo-Serra, Zeyu Wang",2026,TVCG,https://mo-haoran.com/DoodleAssist/,"@article{Mo_2026,
   title = {DoodleAssist: Progressive Interactive Line Art Generation With Latent Distribution Alignment},
   volume = {32},
   ISSN = {2160-9306},
@@ -1152,7 +1152,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   month = Oct,
   pages = {1–32}
 }",Sketching and Thinking,
-10.1109/ICCV51701.2025.01411,MagicColor: Multi-Instance Sketch Colorization,"Yinhan Zhang, Yue Ma, Bingyuan Wang, Qifeng Chen, Zeyu Wang",2025,ICCV,https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_MagicColor_Multi-Instance_Sketch_Colorization_ICCV_2025_paper.html,"@InProceedings{Zhang_2025_ICCV,
+10.1109/ICCV51701.2025.01411,MagicColor: Multi-Instance Sketch Colorization,"Yinhan Zhang, Yue Ma, Bingyuan Wang, Qifeng Chen, Zeyu Wang",2025,ICCV,https://github.com/YinHan-Zhang/MagicColor,"@InProceedings{Zhang_2025_ICCV,
   author = {Zhang, Yinhan and Ma, Yue and Wang, Bingyuan and Chen, Qifeng and Wang, Zeyu},
   title = {MagicColor: Multi-Instance Sketch Colorization},
   booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
@@ -2100,7 +2100,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   month = Dec,
   pages = {9661–9676}
 }",3D Sketching; Lifting 2D Sketches,
-10.1145/3658183,3D-Layers: Bringing Layer-Based Color Editing to VR Painting,"Emilie Yu, Fanny Chevalier, Karan Singh, Adrien Bousseau",2024,TOG,https://doi.org/10.1145/3658183,"@article{Yu_2024,
+10.1145/3658183,3D-Layers: Bringing Layer-Based Color Editing to VR Painting,"Emilie Yu, Fanny Chevalier, Karan Singh, Adrien Bousseau",2024,TOG,https://github.com/graphdeco-inria/3dlayers,"@article{Yu_2024,
   title = {3D-Layers: Bringing Layer-Based Color Editing to VR Painting},
   volume = {43},
   ISSN = {1557-7368},
@@ -2153,7 +2153,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   month = Mar,
   pages = {16504–16512}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1145/3654777.3676444,Block and Detail: Scaffolding Sketch-to-Image Generation,"Vishnu Sarukkai, Lu Yuan, Mia Tang, Maneesh Agrawala, Kayvon Fatahalian",2024,UIST,https://doi.org/10.1145/3654777.3676444,"@inproceedings{Sarukkai_2024,
+10.1145/3654777.3676444,Block and Detail: Scaffolding Sketch-to-Image Generation,"Vishnu Sarukkai, Lu Yuan, Mia Tang, Maneesh Agrawala, Kayvon Fatahalian",2024,UIST,https://miatang13.github.io/BlockAndDetail/,"@inproceedings{Sarukkai_2024,
   series = {UIST ’24},
   title = {Block and Detail: Scaffolding Sketch-to-Image Generation},
   url = {http://dx.doi.org/10.1145/3654777.3676444},
@@ -2166,7 +2166,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   pages = {1–13},
   collection = {UIST ’24}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Generation; Sketch-Based Modeling; Geometry-Based Methods; Sketch Synthesis; Vector Sketch Generation,Yes
-10.1109/cvpr52733.2024.00414,Breathing Life into Sketches Using Text-to-Video Priors,"Rinon Gal, Yael Vinker, Yuval Alaluf, Amit Bermano, Daniel Cohen-Or, Ariel Shamir, Gal Chechik",2024,CVPR,https://doi.org/10.1109/CVPR52733.2024.00414,"@inproceedings{Gal_2024,
+10.1109/cvpr52733.2024.00414,Breathing Life into Sketches Using Text-to-Video Priors,"Rinon Gal, Yael Vinker, Yuval Alaluf, Amit Bermano, Daniel Cohen-Or, Ariel Shamir, Gal Chechik",2024,CVPR,https://research.nvidia.com/publication/2024-07_breathing-life-sketches-using-text-video-priors,"@inproceedings{Gal_2024,
   title = {Breathing Life Into Sketches Using Text-to-Video Priors},
   url = {http://dx.doi.org/10.1109/cvpr52733.2024.00414},
   DOI = {10.1109/cvpr52733.2024.00414},
@@ -2198,7 +2198,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   year = {2024},
   pages = {4713-4722}
 }",Sketch Understanding,
-10.1145/3641519.3657418,Ciallo: GPU-Accelerated Rendering of Vector Brush Strokes,"Shen Ciao, Zhongyue Guan, Qianxi Liu, Li-Yi Wei, Zeyu Wang",2024,SIGGRAPH,https://doi.org/10.1145/3641519.3657418,"@inproceedings{Ciao_2024,
+10.1145/3641519.3657418,Ciallo: GPU-Accelerated Rendering of Vector Brush Strokes,"Shen Ciao, Zhongyue Guan, Qianxi Liu, Li-Yi Wei, Zeyu Wang",2024,SIGGRAPH,https://research.adobe.com/publication/ciallo-gpu-accelerated-rendering-of-vector-brush-strokes/,"@inproceedings{Ciao_2024,
   series = {SIGGRAPH ’24},
   title = {Ciallo: GPU-Accelerated Rendering of Vector Brush Strokes},
   url = {http://dx.doi.org/10.1145/3641519.3657418},
@@ -2225,7 +2225,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   month = Mar,
   pages = {1869–1877}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1109/cvpr52733.2024.00353,ContextSeg: Sketch Semantic Segmentation by Querying the Context with Attention,"Jiawei Wang, Changjian Li",2024,CVPR,https://doi.org/10.1109/CVPR52733.2024.00353,"@inproceedings{Wang_2024,
+10.1109/cvpr52733.2024.00353,ContextSeg: Sketch Semantic Segmentation by Querying the Context with Attention,"Jiawei Wang, Changjian Li",2024,CVPR,https://github.com/JiaWei22/ContextSeg,"@inproceedings{Wang_2024,
   title = {ContextSeg: Sketch Semantic Segmentation by Querying the Context with Attention},
   url = {http://dx.doi.org/10.1109/cvpr52733.2024.00353},
   DOI = {10.1109/cvpr52733.2024.00353},
@@ -2246,7 +2246,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   year = {2024},
   copyright = {arXiv.org perpetual, non-exclusive license}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Editing,
-10.1145/3658197,Deep Sketch Vectorization via Implicit Surface Extraction,"Chuan Yan, Yong Li, Deepali Aneja, Matthew Fisher, Edgar Simo-Serra, Yotam Gingold",2024,TOG,https://doi.org/10.1145/3658197,"@article{Yan_2024,
+10.1145/3658197,Deep Sketch Vectorization via Implicit Surface Extraction,"Chuan Yan, Yong Li, Deepali Aneja, Matthew Fisher, Edgar Simo-Serra, Yotam Gingold",2024,TOG,https://cragl.cs.gmu.edu/sketchvector/,"@article{Yan_2024,
   title = {Deep Sketch Vectorization via Implicit Surface Extraction},
   volume = {43},
   ISSN = {1557-7368},
@@ -2316,7 +2316,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   pages = {1–25},
   collection = {UIST ’24}
 }",Sketch Understanding,
-10.1109/iccv51701.2025.01372,Dynamic Typography: Bringing Text to Life via Video Diffusion Prior,"Zichen Liu, Yihao Meng, Hao Ouyang, Yue Yu, Bolin Zhao, Daniel Cohen-Or, Huamin Qu",2025,ICCV,https://doi.org/10.48550/arXiv.2404.11614,"@inproceedings{Liu_2025,
+10.1109/iccv51701.2025.01372,Dynamic Typography: Bringing Text to Life via Video Diffusion Prior,"Zichen Liu, Yihao Meng, Hao Ouyang, Yue Yu, Bolin Zhao, Daniel Cohen-Or, Huamin Qu",2025,ICCV,https://mlanthology.org/iccv/2025/liu2025iccv-dynamic/,"@inproceedings{Liu_2025,
   title = {Dynamic Typography: Bringing Text to Life via Video Diffusion Prior},
   url = {http://dx.doi.org/10.1109/ICCV51701.2025.01372},
   DOI = {10.1109/iccv51701.2025.01372},
@@ -2366,7 +2366,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   month = June,
   pages = {16859–16869}
 }",Sketch Understanding; Sketch Abstraction; Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1109/cvpr52733.2024.00688,It's All About Your Sketch: Democratising Sketch Control in Diffusion Models,"Subhadeep Koley, Ayan Kumar Bhunia, Deeptanshu Sekhri, Aneeshan Sain, Pinaki Nath Chowdhury, Tao Xiang, Yi-Zhe Song",2024,CVPR,https://doi.org/10.1109/CVPR52733.2024.00688,"@inproceedings{Koley_2024,
+10.1109/cvpr52733.2024.00688,It's All About Your Sketch: Democratising Sketch Control in Diffusion Models,"Subhadeep Koley, Ayan Kumar Bhunia, Deeptanshu Sekhri, Aneeshan Sain, Pinaki Nath Chowdhury, Tao Xiang, Yi-Zhe Song",2024,CVPR,https://subhadeepkoley.github.io/StableSketching/,"@inproceedings{Koley_2024,
   title = {It’s All About Your Sketch: Democratising Sketch Control in Diffusion Models},
   url = {http://dx.doi.org/10.1109/cvpr52733.2024.00688},
   DOI = {10.1109/cvpr52733.2024.00688},
@@ -2377,7 +2377,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   month = June,
   pages = {7204–7214}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Generation; Diffusion-Based Methods,Yes
-10.1145/3649890,Joint Stroke Tracing and Correspondence for 2D Animation,"Haoran Mo, Chengying Gao, Ruomei Wang",2024,TOG,https://doi.org/10.1145/3649890,"@article{Mo_2024,
+10.1145/3649890,Joint Stroke Tracing and Correspondence for 2D Animation,"Haoran Mo, Chengying Gao, Ruomei Wang",2024,TOG,https://github.com/MarkMoHR/JoSTC,"@article{Mo_2024,
   title = {Joint Stroke Tracing and Correspondence for 2D Animation},
   volume = {43},
   ISSN = {1557-7368},
@@ -2391,7 +2391,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   month = Apr,
   pages = {1–17}
 }",Sketch Animation; Sketch Inbetweening,Yes
-10.1109/cvpr52733.2024.02413,Learning Inclusion Matching for Animation Paint Bucket Colorization,"Yuekun Dai, Shangchen Zhou, Qinyue Li, Chongyi Li, Chen Change Loy",2024,CVPR,https://doi.org/10.1109/CVPR52733.2024.02413,"@inproceedings{Dai_2024,
+10.1109/cvpr52733.2024.02413,Learning Inclusion Matching for Animation Paint Bucket Colorization,"Yuekun Dai, Shangchen Zhou, Qinyue Li, Chongyi Li, Chen Change Loy",2024,CVPR,https://ykdai.github.io/projects/InclusionMatching,"@inproceedings{Dai_2024,
   title = {Learning Inclusion Matching for Animation Paint Bucket Colorization},
   url = {http://dx.doi.org/10.1109/cvpr52733.2024.02413},
   DOI = {10.1109/cvpr52733.2024.02413},
@@ -2415,7 +2415,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   pages = {1–12},
   collection = {SIGGRAPH ’24}
 }",Sketch Processing; Vectorization,
-10.1145/3613904.3642096,Neural Canvas: Supporting Scenic Design Prototyping by Integrating 3D Sketching and Generative AI,"Yulin Shen, Yifei Shen, Jiawen Cheng, Chutian Jiang, Mingming Fan, Zeyu Wang",2024,CHI,https://doi.org/10.1145/3613904.3642096,"@inproceedings{Shen_2024,
+10.1145/3613904.3642096,Neural Canvas: Supporting Scenic Design Prototyping by Integrating 3D Sketching and Generative AI,"Yulin Shen, Yifei Shen, Jiawen Cheng, Chutian Jiang, Mingming Fan, Zeyu Wang",2024,CHI,https://cislab.hkust-gz.edu.cn/projects/neural-canvas/,"@inproceedings{Shen_2024,
   series = {CHI ’24},
   title = {Neural Canvas: Supporting Scenic Design Prototyping by Integrating 3D Sketching and Generative AI},
   url = {http://dx.doi.org/10.1145/3613904.3642096},
@@ -2428,7 +2428,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   pages = {1–18},
   collection = {CHI ’24}
 }",Sketch-Based Modeling; Data-Driven Methods,Yes
-10.1109/cvpr52733.2024.00400,Open Vocabulary Semantic Scene Sketch Understanding,"Ahmed Bourouis, Judith E. Fan, Yulia Gryaditskaya",2024,CVPR,https://doi.org/10.1109/CVPR52733.2024.00400,"@inproceedings{Bourouis_2024,
+10.1109/cvpr52733.2024.00400,Open Vocabulary Semantic Scene Sketch Understanding,"Ahmed Bourouis, Judith E. Fan, Yulia Gryaditskaya",2024,CVPR,https://github.com/AhmedBourouis/Scene-Sketch-Segmentation,"@inproceedings{Bourouis_2024,
   title = {Open Vocabulary Semantic Scene Sketch Understanding},
   url = {http://dx.doi.org/10.1109/cvpr52733.2024.00400},
   DOI = {10.1109/cvpr52733.2024.00400},
@@ -2563,7 +2563,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   year = {2024},
   month = Oct
 }",Sketch Animation,
-10.1145/3658120,SketchDream: Sketch-Based Text-To-3D Generation and Editing,"Feng-Lin Liu, Hongbo Fu, Yu-Kun Lai, Lin Gao",2024,TOG,https://doi.org/10.1145/3658120,"@article{Liu_2024,
+10.1145/3658120,SketchDream: Sketch-Based Text-To-3D Generation and Editing,"Feng-Lin Liu, Hongbo Fu, Yu-Kun Lai, Lin Gao",2024,TOG,https://github.com/IGLICT/SketchDream,"@article{Liu_2024,
   title = {SketchDream: Sketch-based Text-To-3D Generation and Editing},
   volume = {43},
   ISSN = {1557-7368},
@@ -2589,7 +2589,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   year = {2024},
   pages = {24–41}
 }",Sketch Representations; Sketch Processing; Vectorization; Sketch Synthesis; Vector Sketch Generation,
-10.1109/cvpr52733.2024.01194,SketchINR: a First Look into Sketches as Implicit Neural Representations,"Hmrishav Bandyopadhyay, Ayan Kumar Bhunia, Pinaki Nath Chowdhury, Aneeshan Sain, Tao Xiang, Timothy Hospedales, Yi-Zhe Song",2024,CVPR,https://doi.org/10.1109/CVPR52733.2024.01194,"@inproceedings{Bandyopadhyay_2024,
+10.1109/cvpr52733.2024.01194,SketchINR: a First Look into Sketches as Implicit Neural Representations,"Hmrishav Bandyopadhyay, Ayan Kumar Bhunia, Pinaki Nath Chowdhury, Aneeshan Sain, Tao Xiang, Timothy Hospedales, Yi-Zhe Song",2024,CVPR,https://www.research.ed.ac.uk/en/publications/sketchinr-a-first-look-into-sketches-as-implicit-neural-represent/,"@inproceedings{Bandyopadhyay_2024,
   title = {SketchINR: A First Look into Sketches as Implicit Neural Representations},
   url = {http://dx.doi.org/10.1109/cvpr52733.2024.01194},
   DOI = {10.1109/cvpr52733.2024.01194},
@@ -2666,7 +2666,7 @@ N/A,SketchEvo: Leveraging Drawing Dynamics for Enhanced Image Synthesis,"Zhixin 
   month = June,
   pages = {16826–16837}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Generation; Diffusion-Based Methods; Sketch-Based Modeling; Sketch-Based Shape Retrieval,
-10.1145/3687761,ToonCrafter: Generative Cartoon Interpolation,"Jinbo Xing, Hanyuan Liu, Menghan Xia, Yong Zhang, Xintao Wang, Ying Shan, Tien-Tsin Wong",2024,TOG,https://doi.org/10.1145/3687761,"@article{Xing_2024,
+10.1145/3687761,ToonCrafter: Generative Cartoon Interpolation,"Jinbo Xing, Hanyuan Liu, Menghan Xia, Yong Zhang, Xintao Wang, Ying Shan, Tien-Tsin Wong",2024,TOG,https://github.com/kalo4ever/tooncrafter,"@article{Xing_2024,
   title = {ToonCrafter: Generative Cartoon Interpolation},
   volume = {43},
   ISSN = {1557-7368},
@@ -3274,7 +3274,7 @@ N/A,Modelling Complex Vector Drawings with Stroke-Clouds,"Alexander Ashcroft, Ay
   year = {2023},
   pages = {54–70}
 }",Sketch-Based Image Synthesis; Diffusion-Based Methods; Sketch-Based Image Editing; Sketch Processing; Sketch Cleanup,
-10.1145/3592788,A Method for Animating Children’s Drawings of the Human Figure,"Harrison Jesse Smith, Qingyuan Zheng, Yifei Li, Somya Jain, Jessica K. Hodgins",2023,TOG,https://doi.org/10.1145/3592788,"@article{Smith_2023,
+10.1145/3592788,A Method for Animating Children’s Drawings of the Human Figure,"Harrison Jesse Smith, Qingyuan Zheng, Yifei Li, Somya Jain, Jessica K. Hodgins",2023,TOG,https://people.csail.mit.edu/liyifei/publication/children-animated-drawings/,"@article{Smith_2023,
   title = {A Method for Animating Children’s Drawings of the Human Figure},
   volume = {42},
   ISSN = {1557-7368},
@@ -3299,7 +3299,7 @@ N/A,Modelling Complex Vector Drawings with Stroke-Clouds,"Alexander Ashcroft, Ay
   month = Jan,
   pages = {4043–4051}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Generation; Diffusion-Based Methods,
-10.1109/iccv51070.2023.00355,Adding Conditional Control to Text-to-Image Diffusion Models,"Lvmin Zhang, Anyi Rao, Maneesh Agrawala",2023,ICCV,https://doi.org/10.1109/ICCV51070.2023.00355,"@inproceedings{Zhang_2023,
+10.1109/iccv51070.2023.00355,Adding Conditional Control to Text-to-Image Diffusion Models,"Lvmin Zhang, Anyi Rao, Maneesh Agrawala",2023,ICCV,https://mlanthology.org/iccv/2023/zhang2023iccv-adding/,"@inproceedings{Zhang_2023,
   title = {Adding Conditional Control to Text-to-Image Diffusion Models},
   url = {http://dx.doi.org/10.1109/iccv51070.2023.00355},
   DOI = {10.1109/iccv51070.2023.00355},
@@ -3334,7 +3334,7 @@ N/A,Modelling Complex Vector Drawings with Stroke-Clouds,"Alexander Ashcroft, Ay
   month = June,
   pages = {2765–2775}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1109/iccv51070.2023.00383,Clipascene: Scene Sketching with Different Types and Levels of Abstraction,"Yael Vinker, Yuval Alaluf, Daniel Cohen-Or, Ariel Shamir",2023,ICCV,https://doi.org/10.1109/iccv51070.2023.00383,"@inproceedings{Vinker_2023,
+10.1109/iccv51070.2023.00383,Clipascene: Scene Sketching with Different Types and Levels of Abstraction,"Yael Vinker, Yuval Alaluf, Daniel Cohen-Or, Ariel Shamir",2023,ICCV,https://clipascene.github.io/CLIPascene/,"@inproceedings{Vinker_2023,
   title = {CLIPascene: Scene Sketching with Different Types and Levels of Abstraction},
   url = {http://dx.doi.org/10.1109/iccv51070.2023.00383},
   DOI = {10.1109/iccv51070.2023.00383},
@@ -3394,7 +3394,7 @@ N/A,Modelling Complex Vector Drawings with Stroke-Clouds,"Alexander Ashcroft, Ay
   month = June,
   pages = {12084–12093}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1109/iccv51070.2023.00670,Deep Geometrized Cartoon Line Inbetweening,"Li Siyao, Tianpei Gu, Weiye Xiao, Henghui Ding, Ziwei Liu, Chen Change Loy",2023,ICCV,https://doi.org/10.1109/ICCV51070.2023.00670,"@inproceedings{Siyao_2023,
+10.1109/iccv51070.2023.00670,Deep Geometrized Cartoon Line Inbetweening,"Li Siyao, Tianpei Gu, Weiye Xiao, Henghui Ding, Ziwei Liu, Chen Change Loy",2023,ICCV,https://github.com/lisiyao21/AnimeInbet,"@inproceedings{Siyao_2023,
   title = {Deep Geometrized Cartoon Line Inbetweening},
   url = {http://dx.doi.org/10.1109/iccv51070.2023.00670},
   DOI = {10.1109/iccv51070.2023.00670},
@@ -3432,7 +3432,7 @@ N/A,Modelling Complex Vector Drawings with Stroke-Clouds,"Alexander Ashcroft, Ay
   month = Nov,
   pages = {73–81}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Generation,
-10.1109/iccv51070.2023.02127,Democratising 2D Sketch to 3D Shape Retrieval Through Pivoting,"Pinaki Nath Chowdhury, Ayan Kumar Bhunia, Aneeshan Sain, Subhadeep Koley, Tao Xiang, Yi-Zhe Song",2023,ICCV,https://doi.org/10.1109/ICCV51070.2023.02127,"@inproceedings{Chowdhury_2023,
+10.1109/iccv51070.2023.02127,Democratising 2D Sketch to 3D Shape Retrieval Through Pivoting,"Pinaki Nath Chowdhury, Ayan Kumar Bhunia, Aneeshan Sain, Subhadeep Koley, Tao Xiang, Yi-Zhe Song",2023,ICCV,https://openaccess.thecvf.com/content/ICCV2023/html/Chowdhury_Democratising_2D_Sketch_to_3D_Shape_Retrieval_Through_Pivoting_ICCV_2023_paper.html,"@inproceedings{Chowdhury_2023,
   title = {Democratising 2D Sketch to 3D Shape Retrieval Through Pivoting},
   url = {http://dx.doi.org/10.1109/iccv51070.2023.02127},
   DOI = {10.1109/iccv51070.2023.02127},
@@ -3457,7 +3457,7 @@ N/A,Modelling Complex Vector Drawings with Stroke-Clouds,"Alexander Ashcroft, Ay
   month = July,
   pages = {1–15}
 }",Sketch Understanding,
-10.52202/075280-0698,DiffSketcher: Text Guided Vector Sketch Synthesis Through Latent Diffusion Models,"Ximing Xing, Chuang Wang, Haitao Zhou, Jing Zhang, Qian Yu, Dong Xu",2023,NeurIPS,https://proceedings.neurips.cc/paper_files/paper/2023/hash/333e67fc4728f147d31608db3ca78e09-Abstract-Conference.html,"@inproceedings{NEURIPS2023_333e67fc,
+10.52202/075280-0698,DiffSketcher: Text Guided Vector Sketch Synthesis Through Latent Diffusion Models,"Ximing Xing, Chuang Wang, Haitao Zhou, Jing Zhang, Qian Yu, Dong Xu",2023,NeurIPS,https://github.com/ximinng/DiffSketcher,"@inproceedings{NEURIPS2023_333e67fc,
   author = {Xing, XiMing and Wang, Chuang and Zhou, Haitao and Zhang, Jing and Yu, Qian and Xu, Dong},
   booktitle = {Advances in Neural Information Processing Systems},
   doi = {10.52202/075280-0698},
@@ -3572,7 +3572,7 @@ N/A,Modelling Complex Vector Drawings with Stroke-Clouds,"Alexander Ashcroft, Ay
   year = {2023},
   month = Oct
 }",Sketch-Based Modeling; Geometry-Based Methods; Data-Driven Methods,
-10.1109/tvcg.2023.3247059,GestureSurface: VR Sketching Through Assembling Scaffold Surface with Non-Dominant Hand,"Xinchi Xu, Yang Zhou, Bingchan Shao, Guihuan Feng, Chun Yu",2023,TVCG,https://doi.org/10.1109/TVCG.2023.3247059,"@article{Xu_2023,
+10.1109/tvcg.2023.3247059,GestureSurface: VR Sketching Through Assembling Scaffold Surface with Non-Dominant Hand,"Xinchi Xu, Yang Zhou, Bingchan Shao, Guihuan Feng, Chun Yu",2023,TVCG,https://eurekamag.com/research/110/184/110184213.php,"@article{Xu_2023,
   title = {GestureSurface: VR Sketching through Assembling Scaffold Surface with Non-Dominant Hand},
   volume = {29},
   ISSN = {2160-9306},
@@ -3757,7 +3757,7 @@ N/A,Modelling Complex Vector Drawings with Stroke-Clouds,"Alexander Ashcroft, Ay
   year = {2023},
   pages = {8657–8671}
 }",Sketch Representations; Sketch Synthesis; Vector Sketch Generation,
-10.1145/3592392,Semi-Supervised Reference-Based Sketch Extraction Using a Contrastive Learning Framework,"Chang Wook Seo, Amirsaman Ashtari, Junyong Noh",2023,TOG,https://dl.acm.org/doi/10.1145/3592392,"@article{Seo_2023,
+10.1145/3592392,Semi-Supervised Reference-Based Sketch Extraction Using a Contrastive Learning Framework,"Chang Wook Seo, Amirsaman Ashtari, Junyong Noh",2023,TOG,https://github.com/Chanuku/Semi_ref2sketch_code,"@article{Seo_2023,
   title = {Semi-supervised reference-based sketch extraction using a contrastive learning framework},
   volume = {42},
   ISSN = {1557-7368},
@@ -3806,7 +3806,7 @@ N/A,Modelling Complex Vector Drawings with Stroke-Clouds,"Alexander Ashcroft, Ay
   year = {2023},
   copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
 }",Sketch Understanding; Sketch Segmentation,
-10.1145/3588432.3591560,Sketch-Guided Text-to-Image Diffusion Models,"Andrey Voynov, Kfir Aberman, Daniel Cohen-Or",2023,SIGGRAPH,https://doi.org/10.1145/3588432.3591560,"@inproceedings{Voynov_2023,
+10.1145/3588432.3591560,Sketch-Guided Text-to-Image Diffusion Models,"Andrey Voynov, Kfir Aberman, Daniel Cohen-Or",2023,SIGGRAPH,https://sketch-guided-diffusion.github.io/,"@inproceedings{Voynov_2023,
   series = {SIGGRAPH ’23},
   title = {Sketch-Guided Text-to-Image Diffusion Models},
   url = {http://dx.doi.org/10.1145/3588432.3591560},
@@ -4379,7 +4379,7 @@ N/A,SketchKnitter: Vectorized Sketch Generation with Diffusion Models,"Qiang Wan
   year = {2022},
   pages = {3657–3668}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1145/3550454.3555488,CAD2Sketch: Generating Concept Sketches from CAD Sequences,"Felix Hähnlein, Changjian Li, Niloy J. Mitra, Adrien Bousseau",2022,TOG,https://dl.acm.org/doi/10.1145/3550454.3555488,"@article{H_hnlein_2022,
+10.1145/3550454.3555488,CAD2Sketch: Generating Concept Sketches from CAD Sequences,"Felix Hähnlein, Changjian Li, Niloy J. Mitra, Adrien Bousseau",2022,TOG,https://discovery.ucl.ac.uk/id/eprint/10190377/,"@article{H_hnlein_2022,
   title = {CAD2Sketch: Generating Concept Sketches from CAD Sequences},
   volume = {41},
   ISSN = {1557-7368},
@@ -4415,7 +4415,7 @@ N/A,SketchKnitter: Vectorized Sketch Generation with Diffusion Models,"Qiang Wan
   month = Jan,
   pages = {3183–3192}
 }",Sketch Animation,
-10.1145/3528223.3530068,CLIPasso: Semantically-Aware Object Sketching,"Yael Vinker, Ehsan Pajouheshgar, Jessica Y. Bo, Roman Christian Bachmann, Amit Haim Bermano, Daniel Cohen-Or, Amir Zamir, Ariel Shamir",2022,TOG,https://doi.org/10.1145/3528223.3530068,"@article{Vinker_2022,
+10.1145/3528223.3530068,CLIPasso: Semantically-Aware Object Sketching,"Yael Vinker, Ehsan Pajouheshgar, Jessica Y. Bo, Roman Christian Bachmann, Amit Haim Bermano, Daniel Cohen-Or, Amir Zamir, Ariel Shamir",2022,TOG,https://clipasso.github.io/clipasso/,"@article{Vinker_2022,
   title = {CLIPasso: semantically-aware object sketching},
   volume = {41},
   ISSN = {1557-7368},
@@ -4521,7 +4521,7 @@ N/A,SketchKnitter: Vectorized Sketch Generation with Diffusion Models,"Qiang Wan
   month = July,
   pages = {1–16}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Editing,
-10.1145/3528223.3530097,Detecting Viewer-Perceived Intended Vector Sketch Connectivity,"Jerry Yin, Chenxi Liu, Rebecca Lin, Nicholas Vining, Helge Rhodin, Alla Sheffer",2022,TOG,https://doi.org/10.1145/3528223.3530097,"@article{Yin_2022,
+10.1145/3528223.3530097,Detecting Viewer-Perceived Intended Vector Sketch Connectivity,"Jerry Yin, Chenxi Liu, Rebecca Lin, Nicholas Vining, Helge Rhodin, Alla Sheffer",2022,TOG,https://research.nvidia.com/publication/2022-08_detecting-viewer-perceived-intended-vector-sketch-connectivity,"@article{Yin_2022,
   title = {Detecting viewer-perceived intended vector sketch connectivity},
   volume = {41},
   ISSN = {1557-7368},
@@ -4535,7 +4535,7 @@ N/A,SketchKnitter: Vectorized Sketch Generation with Diffusion Models,"Qiang Wan
   month = July,
   pages = {1–11}
 }",Sketch Understanding; Stroke Intent; Sketch Processing; Vectorization,Yes
-10.1145/3550454.3555493,DifferSketching: How Differently Do People Sketch 3D Objects?,"Chufeng Xiao, Wanchao Su, Jing Liao, Zhouhui Lian, Yi-Zhe Song, Hongbo Fu",2022,TOG,https://doi.org/10.1145/3550454.3555493,"@article{Xiao_2022,
+10.1145/3550454.3555493,DifferSketching: How Differently Do People Sketch 3D Objects?,"Chufeng Xiao, Wanchao Su, Jing Liao, Zhouhui Lian, Yi-Zhe Song, Hongbo Fu",2022,TOG,https://github.com/chufengxiao/DifferSketching,"@article{Xiao_2022,
   title = {DifferSketching: How Differently Do People Sketch 3D Objects?},
   volume = {41},
   ISSN = {1557-7368},
@@ -4660,7 +4660,7 @@ N/A,SketchKnitter: Vectorized Sketch Generation with Diffusion Models,"Qiang Wan
   year = {2022},
   pages = {271–287}
 }",Sketching and Thinking; Sketch Animation,
-10.1109/cvpr52688.2022.00776,Learning to Generate Line Drawings That Convey Geometry and Semantics,"Caroline Chan, Fredo Durand, Phillip Isola",2022,CVPR,https://doi.org/10.1109/CVPR52688.2022.00776,"@inproceedings{Chan_2022,
+10.1109/cvpr52688.2022.00776,Learning to Generate Line Drawings That Convey Geometry and Semantics,"Caroline Chan, Fredo Durand, Phillip Isola",2022,CVPR,https://github.com/carolineec/informative-drawings,"@inproceedings{Chan_2022,
   title = {Learning to generate line drawings that convey geometry and semantics},
   url = {http://dx.doi.org/10.1109/cvpr52688.2022.00776},
   DOI = {10.1109/cvpr52688.2022.00776},
@@ -4723,7 +4723,7 @@ N/A,SketchKnitter: Vectorized Sketch Generation with Diffusion Models,"Qiang Wan
   pages = {1–9},
   collection = {SA ’22}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Editing,
-10.1145/3550454.3555472,Neural Brushstroke Engine: Learning a Latent Style Space of Interactive Drawing Tools,"Maria Shugrina, Chin-Ying Li, Sanja Fidler",2022,TOG,https://doi.org/10.1145/3550454.3555472,"@article{Shugrina_2022,
+10.1145/3550454.3555472,Neural Brushstroke Engine: Learning a Latent Style Space of Interactive Drawing Tools,"Maria Shugrina, Chin-Ying Li, Sanja Fidler",2022,TOG,https://github.com/nv-tlabs/brushstroke_engine,"@article{Shugrina_2022,
   title = {Neural Brushstroke Engine: Learning a Latent Style Space of Interactive Drawing Tools},
   volume = {41},
   ISSN = {1557-7368},
@@ -4856,7 +4856,7 @@ N/A,SketchKnitter: Vectorized Sketch Generation with Diffusion Models,"Qiang Wan
   year = {2022},
   pages = {464–479}
 }",3D Sketching; Lifting 2D Sketches,
-10.1145/3505246,StrokeStyles: Stroke-Based Segmentation and Stylization of Fonts,"Daniel Berio, Frederic Fol Leymarie, Paul Asente, Jose Echevarria",2022,TOG,https://doi.org/10.1145/3505246,"@article{Berio_2022,
+10.1145/3505246,StrokeStyles: Stroke-Based Segmentation and Stylization of Fonts,"Daniel Berio, Frederic Fol Leymarie, Paul Asente, Jose Echevarria",2022,TOG,https://research.adobe.com/publication/strokestyles-stroke-based-segmentation-and-stylization-of-fonts/,"@article{Berio_2022,
   title = {StrokeStyles: Stroke-based Segmentation and Stylization of Fonts},
   volume = {41},
   ISSN = {1557-7368},
@@ -5031,7 +5031,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Feb,
   pages = {56–66}
 }",Sketch-Based Modeling,
-10.1145/3528223.3530133,Free2CAD: parsing freehand drawings into CAD commands,"Changjian Li, Hao Pan, Adrien Bousseau, Niloy J. Mitra",2022,TOG,https://doi.org/10.1145/3528223.3530133,"@article{Li_2022,
+10.1145/3528223.3530133,Free2CAD: parsing freehand drawings into CAD commands,"Changjian Li, Hao Pan, Adrien Bousseau, Niloy J. Mitra",2022,TOG,https://geometry.cs.ucl.ac.uk/projects/2022/free2cad/,"@article{Li_2022,
   title = {Free2CAD: parsing freehand drawings into CAD commands},
   volume = {41},
   ISSN = {1557-7368},
@@ -5321,7 +5321,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Oct,
   pages = {10108–10117}
 }",Sketch Understanding,
-10.1145/3450626.3459833,General Virtual Sketching Framework for Vector Line Art,"Haoran Mo, Edgar Simo-Serra, Chengying Gao, Changqing Zou, Ruomei Wang",2021,TOG,https://dl.acm.org/doi/10.1145/3450626.3459833,"@article{Mo_2021,
+10.1145/3450626.3459833,General Virtual Sketching Framework for Vector Line Art,"Haoran Mo, Edgar Simo-Serra, Chengying Gao, Changqing Zou, Ruomei Wang",2021,TOG,https://mo-haoran.com/virtual_sketching/,"@article{Mo_2021,
   title = {General virtual sketching framework for vector line art},
   volume = {40},
   ISSN = {1557-7368},
@@ -5370,7 +5370,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = June,
   pages = {4245–4254}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1109/iccv48922.2021.01394,Neural Strokes: Stylized Line Drawing of 3D Shapes,"Difan Liu, Matthew Fisher, Aaron Hertzmann, Evangelos Kalogerakis",2021,ICCV,https://doi.org/10.1109/ICCV48922.2021.01394,"@inproceedings{Liu_2021,
+10.1109/iccv48922.2021.01394,Neural Strokes: Stylized Line Drawing of 3D Shapes,"Difan Liu, Matthew Fisher, Aaron Hertzmann, Evangelos Kalogerakis",2021,ICCV,https://people.cs.umass.edu/~dliu/projects/NeuralStrokes/,"@inproceedings{Liu_2021,
   title = {Neural Strokes: Stylized Line Drawing of 3D Shapes},
   url = {http://dx.doi.org/10.1109/iccv48922.2021.01394},
   DOI = {10.1109/iccv48922.2021.01394},
@@ -5491,7 +5491,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   year = {2021},
   pages = {6012-6021}
 }",Sketch-Based Modeling,
-10.1109/iccv48922.2021.00994,SketchAA: Abstract Representation for Abstract Sketches,"Lan Yang, Kaiyue Pang, Honggang Zhang, Yi-Zhe Song",2021,ICCV,https://doi.org/10.1109/ICCV48922.2021.00994,"@inproceedings{Yang_2021,
+10.1109/iccv48922.2021.00994,SketchAA: Abstract Representation for Abstract Sketches,"Lan Yang, Kaiyue Pang, Honggang Zhang, Yi-Zhe Song",2021,ICCV,https://lacuna.tiptreesystems.com/work/sketchaa-abstract-representation-for-abstract-sketches/wrk_51386681556f25b0ab562bc788b4298e,"@inproceedings{Yang_2021,
   title = {SketchAA: Abstract Representation for Abstract Sketches},
   url = {http://dx.doi.org/10.1109/iccv48922.2021.00994},
   DOI = {10.1109/iccv48922.2021.00994},
@@ -5502,7 +5502,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Oct,
   pages = {10077–10086}
 }",Sketch Representations; Sketch Understanding; Sketch Abstraction,Yes
-10.1145/3450284,SketchGNN: Semantic Sketch Segmentation with Graph Neural Networks,"Lumin Yang, Jiajie Zhuang, Hongbo Fu, Xiangzhi Wei, Kun Zhou, Youyi Zheng",2021,TOG,https://doi.org/10.1145/3450284,"@article{Yang_2021,
+10.1145/3450284,SketchGNN: Semantic Sketch Segmentation with Graph Neural Networks,"Lumin Yang, Jiajie Zhuang, Hongbo Fu, Xiangzhi Wei, Kun Zhou, Youyi Zheng",2021,TOG,https://github.com/sYeaLumin/SketchGNN,"@article{Yang_2021,
   title = {SketchGNN: Semantic Sketch Segmentation with Graph Neural Networks},
   volume = {40},
   ISSN = {1557-7368},
@@ -5586,7 +5586,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   year = {2021},
   pages = {8595–8606}
 }",Sketch-Based Modeling; Sketch-Based Shape Retrieval,
-10.1145/3450626.3459819,Tracing Versus Freehand for Evaluating Computer-Generated Drawings,"Zeyu Wang, Sherry Qiu, Nicole Feng, Holly Rushmeier, Leonard McMillan, Julie Dorsey",2021,TOG,https://doi.org/10.1145/3450626.3459819,"@article{Wang_2021,
+10.1145/3450626.3459819,Tracing Versus Freehand for Evaluating Computer-Generated Drawings,"Zeyu Wang, Sherry Qiu, Nicole Feng, Holly Rushmeier, Leonard McMillan, Julie Dorsey",2021,TOG,https://virtual.ieeevis.org/year/2021/paper_v-siggraph-332.html,"@article{Wang_2021,
   title = {Tracing versus freehand for evaluating computer-generated drawings},
   volume = {40},
   ISSN = {1557-7368},
@@ -5902,7 +5902,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Sept,
   pages = {484–500}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1145/3414685.3417784,A Benchmark for Rough Sketch Cleanup,"Chuan Yan, David Vanderhaeghe, Yotam Gingold",2020,TOG,https://doi.org/10.1145/3414685.3417784,"@article{Yan_2020,
+10.1145/3414685.3417784,A Benchmark for Rough Sketch Cleanup,"Chuan Yan, David Vanderhaeghe, Yotam Gingold",2020,TOG,https://cragl.cs.gmu.edu/sketchbench/,"@article{Yan_2020,
   title = {A benchmark for rough sketch cleanup},
   volume = {39},
   ISSN = {1557-7368},
@@ -5954,7 +5954,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   volume = {33},
   year = {2020}
 }",Sketch Representations,
-10.1007/978-3-030-58555-6_36,Deep Plastic Surgery: Robust and Controllable Image Editing with Human-Drawn Sketches,"Shuai Yang, Zhangyang Wang, Jiaying Liu, Zongming Guo",2020,ECCV,https://doi.org/10.1007/978-3-030-58555-6_36,"@inbook{Yang_2020,
+10.1007/978-3-030-58555-6_36,Deep Plastic Surgery: Robust and Controllable Image Editing with Human-Drawn Sketches,"Shuai Yang, Zhangyang Wang, Jiaying Liu, Zongming Guo",2020,ECCV,https://williamyang1991.github.io/project.html,"@inbook{Yang_2020,
   title = {Deep Plastic Surgery: Robust and Controllable Image Editing with Human-Drawn Sketches},
   ISBN = {9783030585556},
   ISSN = {1611-3349},
@@ -5980,7 +5980,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Jan,
   pages = {112–126}
 }",Sketch Understanding; Sketch Segmentation; Sketch-Based Modeling; Data-Driven Methods,
-10.1145/3386569.3392386,DeepFaceDrawing: Deep Generation of Face Images from Sketches,"Shu-Yu Chen, Wanchao Su, Lin Gao, Shihong Xia, Hongbo Fu",2020,TOG,https://doi.org/10.1145/3386569.3392386,"@article{Chen_2020,
+10.1145/3386569.3392386,DeepFaceDrawing: Deep Generation of Face Images from Sketches,"Shu-Yu Chen, Wanchao Su, Lin Gao, Shihong Xia, Hongbo Fu",2020,TOG,https://geometrylearning.com/DeepFaceDrawing/,"@article{Chen_2020,
   title = {DeepFaceDrawing: deep generation of face images from sketches},
   volume = {39},
   ISSN = {1557-7368},
@@ -6017,7 +6017,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   volume = {33},
   year = {2020}
 }",Sketch Processing; Vectorization; Sketch Animation; Sketch Synthesis; Vector Sketch Generation,
-10.1145/3414685.3417871,Differentiable Vector Graphics Rasterization for Editing and Learning,"Tzu-Mao Li, Michal Lukáč, Michaël Gharbi, Jonathan Ragan-Kelley",2020,TOG,https://dl.acm.org/doi/10.1145/3414685.3417871,"@article{Li_2020,
+10.1145/3414685.3417871,Differentiable Vector Graphics Rasterization for Editing and Learning,"Tzu-Mao Li, Michal Lukáč, Michaël Gharbi, Jonathan Ragan-Kelley",2020,TOG,https://people.csail.mit.edu/tzumao/diffvg/,"@article{Li_2020,
   title = {Differentiable vector graphics rasterization for editing and learning},
   volume = {39},
   ISSN = {1557-7368},
@@ -6078,7 +6078,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = June,
   pages = {7434–7443}
 }",Sketch Understanding,
-10.1145/3414685.3417851,Lifting Freehand Concept Sketches into 3D,"Yulia Gryaditskaya, Felix Hähnlein, Chenxi Liu, Alla Sheffer, Adrien Bousseau",2020,TOG,https://doi.org/10.1145/3414685.3417851,"@article{Gryaditskaya_2020,
+10.1145/3414685.3417851,Lifting Freehand Concept Sketches into 3D,"Yulia Gryaditskaya, Felix Hähnlein, Chenxi Liu, Alla Sheffer, Adrien Bousseau",2020,TOG,https://ns.inria.fr/d3/Lift3D/,"@article{Gryaditskaya_2020,
   title = {Lifting freehand concept sketches into 3D},
   volume = {39},
   ISSN = {1557-7368},
@@ -6092,7 +6092,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Nov,
   pages = {1–16}
 }",3D Sketching; Lifting 2D Sketches,Yes
-10.1145/3414685.3417805,Monster Mash: a Single-View Approach to Casual 3D Modeling and Animation,"Marek Dvorožňák, Daniel Sýkora, Cassidy Curtis, Brian Curless, Olga Sorkine-Hornung, David Salesin",2020,TOG,https://doi.org/10.1145/3414685.3417805,"@article{Dvoro_k_2020,
+10.1145/3414685.3417805,Monster Mash: a Single-View Approach to Casual 3D Modeling and Animation,"Marek Dvorožňák, Daniel Sýkora, Cassidy Curtis, Brian Curless, Olga Sorkine-Hornung, David Salesin",2020,TOG,https://research.google/pubs/monster-mash-a-single-view-approach-to-casual-3d-modeling-and-animation/,"@article{Dvoro_k_2020,
   title = {Monster mash: a single-view approach to casual 3D modeling and animation},
   volume = {39},
   ISSN = {1557-7368},
@@ -6106,7 +6106,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Nov,
   pages = {1–12}
 }",3D Sketching; Lifting 2D Sketches; Sketch Animation,Yes
-10.1109/cvpr42600.2020.00547,Neural Contours: Learning to Draw Lines from 3D Shapes,"Difan Liu, Mohamed Nabail, Aaron Hertzmann, Evangelos Kalogerakis",2020,CVPR,https://doi.org/10.1109/CVPR42600.2020.00547,"@inproceedings{Liu_2020,
+10.1109/cvpr42600.2020.00547,Neural Contours: Learning to Draw Lines from 3D Shapes,"Difan Liu, Mohamed Nabail, Aaron Hertzmann, Evangelos Kalogerakis",2020,CVPR,https://people.cs.umass.edu/~dliu/projects/NeuralContours/,"@inproceedings{Liu_2020,
   title = {Neural Contours: Learning to Draw Lines From 3D Shapes},
   url = {http://dx.doi.org/10.1109/cvpr42600.2020.00547},
   DOI = {10.1109/cvpr42600.2020.00547},
@@ -6157,7 +6157,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   pages = {1–13},
   collection = {CHI ’20}
 }",3D Sketching; Sketching in VR/AR,
-10.1145/3379337.3415892,RealitySketch: Embedding Responsive Graphics and Visualizations in AR Through Dynamic Sketching,"Ryo Suzuki, Rubaiat Habib Kazi, Li-yi Wei, Stephen DiVerdi, Wilmot Li, Daniel Leithinger",2020,UIST,https://doi.org/10.1145/3379337.3415892,"@inproceedings{Suzuki_2020,
+10.1145/3379337.3415892,RealitySketch: Embedding Responsive Graphics and Visualizations in AR Through Dynamic Sketching,"Ryo Suzuki, Rubaiat Habib Kazi, Li-yi Wei, Stephen DiVerdi, Wilmot Li, Daniel Leithinger",2020,UIST,https://ilab.ucalgary.ca/publications/uist-2020-suzuki/,"@inproceedings{Suzuki_2020,
   series = {UIST ’20},
   title = {RealitySketch: Embedding Responsive Graphics and Visualizations in AR through Dynamic Sketching},
   url = {http://dx.doi.org/10.1145/3379337.3415892},
@@ -6232,7 +6232,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Dec,
   pages = {4849–4860}
 }",Sketch Representations; Sketch Understanding; Sketch Segmentation,
-10.1109/cvpr42600.2020.00980,Sketch Less for More: On-the-Fly Fine-Grained Sketch-Based Image Retrieval,"Ayan Kumar Bhunia, Yongxin Yang, Timothy M. Hospedales, Tao Xiang, Yi-Zhe Song",2020,CVPR,https://doi.org/10.1109/CVPR42600.2020.00980,"@inproceedings{Bhunia_2020,
+10.1109/cvpr42600.2020.00980,Sketch Less for More: On-the-Fly Fine-Grained Sketch-Based Image Retrieval,"Ayan Kumar Bhunia, Yongxin Yang, Timothy M. Hospedales, Tao Xiang, Yi-Zhe Song",2020,CVPR,https://ayankumarbhunia.github.io/on-the-fly-FGSBIR/,"@inproceedings{Bhunia_2020,
   title = {Sketch Less for More: On-the-Fly Fine-Grained Sketch-Based Image Retrieval},
   url = {http://dx.doi.org/10.1109/cvpr42600.2020.00980},
   DOI = {10.1109/cvpr42600.2020.00980},
@@ -6294,7 +6294,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Nov,
   pages = {1–14}
 }",Sketch-Based Modeling,
-10.1109/cvpr42600.2020.01416,Sketchformer: Transformer-Based Representation for Sketched Structure,"Leo Sampaio Ferraz Ribeiro, Tu Bui, John Collomosse, Moacir Ponti",2020,CVPR,https://doi.org/10.1109/CVPR42600.2020.01416,"@inproceedings{Sampaio_Ferraz_Ribeiro_2020,
+10.1109/cvpr42600.2020.01416,Sketchformer: Transformer-Based Representation for Sketched Structure,"Leo Sampaio Ferraz Ribeiro, Tu Bui, John Collomosse, Moacir Ponti",2020,CVPR,https://research.adobe.com/publication/sketchformer-transformer-based-representation-for-sketched-structure/,"@inproceedings{Sampaio_Ferraz_Ribeiro_2020,
   title = {Sketchformer: Transformer-Based Representation for Sketched Structure},
   url = {http://dx.doi.org/10.1109/cvpr42600.2020.01416},
   DOI = {10.1109/cvpr42600.2020.01416},
@@ -6390,7 +6390,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   year = {2020},
   pages = {36–52}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Generation,
-10.1177/0301006620908207,Why Do Line Drawings Work? a Realism Hypothesis,Aaron Hertzmann,2020,Perception,https://doi.org/10.1177/0301006620908207,"@article{Hertzmann_2020,
+10.1177/0301006620908207,Why Do Line Drawings Work? a Realism Hypothesis,Aaron Hertzmann,2020,Perception,https://aaronhertzmann.com/2021/05/13/why-does-line-drawing-work.html,"@article{Hertzmann_2020,
   title = {Why Do Line Drawings Work? A Realism Hypothesis},
   volume = {49},
   ISSN = {1468-4233},
@@ -6783,7 +6783,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   pages = {1–11},
   collection = {CHI ’19}
 }",3D Sketching; Sketching in VR/AR; Sketch-Based Modeling,
-10.1109/tvcg.2018.2860016,Model-Guided 3D Sketching,"Pengfei Xu, Hongbo Fu, Youyi Zheng, Karan Singh, Hui Huang, Chiew-Lan Tai",2019,TVCG,https://doi.org/10.1109/TVCG.2018.2860016,"@article{Xu_2019,
+10.1109/tvcg.2018.2860016,Model-Guided 3D Sketching,"Pengfei Xu, Hongbo Fu, Youyi Zheng, Karan Singh, Hui Huang, Chiew-Lan Tai",2019,TVCG,https://www.dgp.toronto.edu/~karan/sketchsculpt.htm,"@article{Xu_2019,
   title = {Model-Guided 3D Sketching},
   volume = {25},
   ISSN = {2160-9306},
@@ -6809,7 +6809,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   year = {2019},
   pages = {56683–56693}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Generation; GAN-Based Methods,
-10.1145/3355089.3356533,OpenSketch: a Richly-Annotated Dataset of Product Design Sketches,"Yulia Gryaditskaya, Mark Sypesteyn, Jan Willem Hoftijzer, Sylvia Pont, Frédo Durand, Adrien Bousseau",2019,TOG,https://doi.org/10.1145/3355089.3356533,"@article{Gryaditskaya_2019,
+10.1145/3355089.3356533,OpenSketch: a Richly-Annotated Dataset of Product Design Sketches,"Yulia Gryaditskaya, Mark Sypesteyn, Jan Willem Hoftijzer, Sylvia Pont, Frédo Durand, Adrien Bousseau",2019,TOG,https://ns.inria.fr/d3/OpenSketch/,"@article{Gryaditskaya_2019,
   title = {OpenSketch: a richly-annotated dataset of product design sketches},
   volume = {38},
   ISSN = {1557-7368},
@@ -6834,7 +6834,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Sept,
   pages = {4200–4204}
 }",Sketch Rendering; Sketch Animation; Sketch Inbetweening,
-10.1109/WACV.2019.00154,Photo-Sketching: Inferring Contour Drawings from Images,"Mengtian Li, Zhe Lin, Radomir Mech, Ersin Yumer, Deva Ramanan",2019,WACV,https://mtli.github.io/sketch/,"@inproceedings{Li_2019,
+10.1109/WACV.2019.00154,Photo-Sketching: Inferring Contour Drawings from Images,"Mengtian Li, Zhe Lin, Radomir Mech, Ersin Yumer, Deva Ramanan",2019,WACV,https://publications.ri.cmu.edu/photo-sketching-inferring-contour-drawings-from-images,"@inproceedings{Li_2019,
   title = {Photo-Sketching: Inferring Contour Drawings From Images},
   url = {http://dx.doi.org/10.1109/WACV.2019.00154},
   DOI = {10.1109/wacv.2019.00154},
@@ -6856,7 +6856,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = Oct,
   pages = {1745–1753}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Generation; GAN-Based Methods; Sketch-Based Image Editing,
-10.1109/cvpr.2019.00244,Semantic Image Synthesis with Spatially-Adaptive Normalization,"Taesung Park, Ming-Yu Liu, Ting-Chun Wang, Jun-Yan Zhu",2019,CVPR,https://doi.org/10.1109/CVPR.2019.00244,"@inproceedings{Park_2019,
+10.1109/cvpr.2019.00244,Semantic Image Synthesis with Spatially-Adaptive Normalization,"Taesung Park, Ming-Yu Liu, Ting-Chun Wang, Jun-Yan Zhu",2019,CVPR,https://nvlabs.github.io/SPADE/,"@inproceedings{Park_2019,
   title = {Semantic Image Synthesis With Spatially-Adaptive Normalization},
   url = {http://dx.doi.org/10.1109/cvpr.2019.00244},
   DOI = {10.1109/cvpr.2019.00244},
@@ -6923,7 +6923,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = July,
   pages = {1654–1659}
 }",Sketch Understanding; Sketch Segmentation,
-10.1145/3306346.3322970,SurfaceBrush: from Virtual Reality Drawings to Manifold Surfaces,"Enrique Rosales, Jafet Rodriguez, Alla Sheffer",2019,TOG,https://doi.org/10.1145/3306346.3322970,"@article{Rosales_2019,
+10.1145/3306346.3322970,SurfaceBrush: from Virtual Reality Drawings to Manifold Surfaces,"Enrique Rosales, Jafet Rodriguez, Alla Sheffer",2019,TOG,https://www.cs.ubc.ca/labs/imager/tr/2019/SurfaceBrush/,"@article{Rosales_2019,
   title = {SurfaceBrush: from virtual reality drawings to manifold surfaces},
   volume = {38},
   ISSN = {1557-7368},
@@ -6964,7 +6964,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   month = July,
   pages = {3219–3231}
 }",Sketching and Thinking,
-10.1145/3202661,Vectorization of Line Drawings via Polyvector Fields,"Mikhail Bessmeltsev, Justin Solomon",2019,TOG,https://dl.acm.org/doi/10.1145/3202661,"@article{Bessmeltsev_2019,
+10.1145/3202661,Vectorization of Line Drawings via Polyvector Fields,"Mikhail Bessmeltsev, Justin Solomon",2019,TOG,https://people.csail.mit.edu/bmpix/,"@article{Bessmeltsev_2019,
   title = {Vectorization of Line Drawings via Polyvector Fields},
   volume = {38},
   ISSN = {1557-7368},
@@ -7147,7 +7147,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   year = {2018},
   pages = {316–333}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1145/3173574.3173812,Agile 3D Sketching with Air Scaffolding,"Yongkwan Kim, Sang-Gyun An, Joon Hyub Lee, Seok-Hyung Bae",2018,CHI,https://doi.org/10.1145/3173574.3173812,"@inproceedings{Kim_2018,
+10.1145/3173574.3173812,Agile 3D Sketching with Air Scaffolding,"Yongkwan Kim, Sang-Gyun An, Joon Hyub Lee, Seok-Hyung Bae",2018,CHI,https://sketch.kaist.ac.kr/publications/2018_chi_agile_3d_sketching,"@inproceedings{Kim_2018,
   series = {CHI ’18},
   title = {Agile 3D Sketching with Air Scaffolding},
   url = {http://dx.doi.org/10.1145/3173574.3173812},
@@ -7280,7 +7280,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Dec,
   pages = {1–13}
 }",Sketch Representations; Sketch-Based Modeling; Data-Driven Methods,
-10.1109/cvpr.2018.00836,Learning Deep Sketch Abstraction,"Umar Riaz Muhammad, Yongxin Yang, Yi-Zhe Song, Tao Xiang, Timothy M. Hospedales",2018,CVPR,https://doi.org/10.1109/CVPR.2018.00836,"@inproceedings{Muhammad_2018,
+10.1109/cvpr.2018.00836,Learning Deep Sketch Abstraction,"Umar Riaz Muhammad, Yongxin Yang, Yi-Zhe Song, Tao Xiang, Timothy M. Hospedales",2018,CVPR,https://cvpaperchallenge.github.io/CVPR2018_Survey/,"@inproceedings{Muhammad_2018,
   title = {Learning Deep Sketch Abstraction},
   url = {http://dx.doi.org/10.1109/cvpr.2018.00836},
   DOI = {10.1109/cvpr.2018.00836},
@@ -7304,7 +7304,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   pages = {1–12},
   collection = {CHI ’18}
 }",Sketch Understanding; Sketch Distortion,
-10.1145/3132703,Mastering Sketching: Adversarial Augmentation for Structured Prediction,"Edgar Simo-Serra, Satoshi Iizuka, Hiroshi Ishikawa",2018,TOG,https://doi.org/10.1145/3132703,"@article{Simo_Serra_2018,
+10.1145/3132703,Mastering Sketching: Adversarial Augmentation for Structured Prediction,"Edgar Simo-Serra, Satoshi Iizuka, Hiroshi Ishikawa",2018,TOG,https://esslab.jp/~ess/research/sketch_master/,"@article{Simo_Serra_2018,
   title = {Mastering Sketching: Adversarial Augmentation for Structured Prediction},
   volume = {37},
   ISSN = {1557-7368},
@@ -7358,7 +7358,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = July,
   pages = {1–14}
 }",Sketch Processing; Sketch Cleanup,
-10.1145/3272127.3275051,Robust Flow-Guided Neural Prediction for Sketch-Based Freeform Surface Modeling,"Changjian Li, Hao Pan, Yang Liu, Xin Tong, Alla Sheffer, Wenping Wang",2018,TOG,https://doi.org/10.1145/3272127.3275051,"@article{Li_2018,
+10.1145/3272127.3275051,Robust Flow-Guided Neural Prediction for Sketch-Based Freeform Surface Modeling,"Changjian Li, Hao Pan, Yang Liu, Xin Tong, Alla Sheffer, Wenping Wang",2018,TOG,https://haopan.github.io/sketchCNN.html,"@article{Li_2018,
   title = {Robust flow-guided neural prediction for sketch-based freeform surface modeling},
   volume = {37},
   ISSN = {1557-7368},
@@ -7383,7 +7383,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = June,
   pages = {8090–8098}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1109/cvpr.2018.00981,SketchyGAN: Towards Diverse and Realistic Sketch to Image Synthesis,"Wengling Chen, James Hays",2018,CVPR,https://doi.org/10.1109/CVPR.2018.00981,"@inproceedings{Chen_2018,
+10.1109/cvpr.2018.00981,SketchyGAN: Towards Diverse and Realistic Sketch to Image Synthesis,"Wengling Chen, James Hays",2018,CVPR,https://github.com/wchen342/SketchyGAN,"@inproceedings{Chen_2018,
   title = {SketchyGAN: Towards Diverse and Realistic Sketch to Image Synthesis},
   url = {http://dx.doi.org/10.1109/cvpr.2018.00981},
   DOI = {10.1109/cvpr.2018.00981},
@@ -7417,7 +7417,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = June,
   pages = {3511–3520}
 }",Sketch Representations; Sketch Understanding; Sketch Segmentation; Sketch-Based Image Synthesis; Sketch-Based Image Editing,
-10.1145/3197517.3201314,StrokeAggregator: Consolidating Raw Sketches into Artist-Intended Curve Drawings,"Chenxi Liu, Enrique Rosales, Alla Sheffer",2018,TOG,https://dl.acm.org/doi/10.1145/3197517.3201314,"@article{Liu_2018,
+10.1145/3197517.3201314,StrokeAggregator: Consolidating Raw Sketches into Artist-Intended Curve Drawings,"Chenxi Liu, Enrique Rosales, Alla Sheffer",2018,TOG,https://www.cs.ubc.ca/labs/imager/tr/2018/StrokeAggregator/,"@article{Liu_2018,
   title = {StrokeAggregator: consolidating raw sketches into artist-intended curve drawings},
   volume = {37},
   ISSN = {1557-7368},
@@ -7431,7 +7431,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = July,
   pages = {1–15}
 }",Sketch Understanding; Stroke Intent; Sketch-Based Modeling; Geometry-Based Methods; Sketch Processing; Vectorization,Yes
-10.1145/3173574.3173759,SymbiosisSketch: Combining 2D \& 3D Sketching for Designing Detailed 3D Objects in Situ,"Rahul Arora, Rubaiat Habib Kazi, Tovi Grossman, George Fitzmaurice, Karan Singh",2018,CHI,https://doi.org/10.1145/3173574.3173759,"@inproceedings{Arora_2018,
+10.1145/3173574.3173759,SymbiosisSketch: Combining 2D \& 3D Sketching for Designing Detailed 3D Objects in Situ,"Rahul Arora, Rubaiat Habib Kazi, Tovi Grossman, George Fitzmaurice, Karan Singh",2018,CHI,https://www.research.autodesk.com/publications/symbiosissketch-combining-2d-3d-sketching-for-designing-detailed-3d-objects-in-situ/,"@inproceedings{Arora_2018,
   series = {CHI ’18},
   title = {SymbiosisSketch: Combining 2D &amp; 3D Sketching for Designing Detailed 3D Objects in Situ},
   url = {http://dx.doi.org/10.1145/3173574.3173759},
@@ -7455,7 +7455,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = June,
   pages = {8456–8465}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Generation; Sketch-Based Image Editing,
-10.1145/3197517.3201326,Toonsynth: Example-Based Synthesis of Hand-Colored Cartoon Animations,"Marek Dvorožnák, Wilmot Li, Vladimir G. Kim, Daniel Sýkora",2018,TOG,https://doi.org/10.1145/3197517.3201326,"@article{Dvoro_n_k_2018,
+10.1145/3197517.3201326,Toonsynth: Example-Based Synthesis of Hand-Colored Cartoon Animations,"Marek Dvorožnák, Wilmot Li, Vladimir G. Kim, Daniel Sýkora",2018,TOG,https://dcgi.fel.cvut.cz/~sykorad/toonsynth.html,"@article{Dvoro_n_k_2018,
   title = {Toonsynth: example-based synthesis of hand-colored cartoon animations},
   volume = {37},
   ISSN = {1557-7368},
@@ -7656,7 +7656,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   year = {2018},
   copyright = {arXiv.org perpetual, non-exclusive license}
 }",Sketch Synthesis; Vector Sketch Generation,
-10.48550/arxiv.1704.03477,A Neural Representation of Sketch Drawings,"David Ha, Douglas Eck",2018,ICLR,https://openreview.net/forum?id=Hy6GHpkCW,"@misc{https://doi.org/10.48550/arxiv.1704.03477,
+10.48550/arxiv.1704.03477,A Neural Representation of Sketch Drawings,"David Ha, Douglas Eck",2018,ICLR,https://research.google/pubs/a-neural-representation-of-sketch-drawings/,"@misc{https://doi.org/10.48550/arxiv.1704.03477,
   doi = {10.48550/ARXIV.1704.03477},
   url = {https://arxiv.org/abs/1704.03477},
   author = {Ha, David and Eck, Douglas},
@@ -7666,7 +7666,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   year = {2017},
   copyright = {arXiv.org perpetual, non-exclusive license}
 }",Sketch Representations,Yes
-10.1109/3dv.2017.00018,3D Shape Reconstruction from Sketches via Multi-View Convolutional Networks,"Zhaoliang Lun, Matheus Gadelha, Evangelos Kalogerakis, Subhransu Maji, Rui Wang",2017,3DV,https://doi.org/10.1109/3DV.2017.00018,"@inproceedings{Lun_2017,
+10.1109/3dv.2017.00018,3D Shape Reconstruction from Sketches via Multi-View Convolutional Networks,"Zhaoliang Lun, Matheus Gadelha, Evangelos Kalogerakis, Subhransu Maji, Rui Wang",2017,3DV,https://github.com/happylun/SketchModeling,"@inproceedings{Lun_2017,
   title = {3D Shape Reconstruction from Sketches via Multi-view Convolutional Networks},
   url = {http://dx.doi.org/10.1109/3dv.2017.00018},
   DOI = {10.1109/3dv.2017.00018},
@@ -7677,7 +7677,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Oct,
   pages = {67–77}
 }",3D Sketching; Lifting 2D Sketches; Sketch-Based Modeling; Data-Driven Methods,Yes
-10.1145/3072959.3073632,BendSketch: Modeling Freeform Surfaces Through 2D Sketching,"Changjian Li, Hao Pan, Yang Liu, Xin Tong, Alla Sheffer, Wenping Wang",2017,TOG,https://doi.org/10.1145/3072959.3073632,"@article{Li_2017,
+10.1145/3072959.3073632,BendSketch: Modeling Freeform Surfaces Through 2D Sketching,"Changjian Li, Hao Pan, Yang Liu, Xin Tong, Alla Sheffer, Wenping Wang",2017,TOG,https://haopan.github.io/bendsketch.html,"@article{Li_2017,
   title = {BendSketch: modeling freeform surfaces through 2D sketching},
   volume = {36},
   ISSN = {1557-7368},
@@ -7704,7 +7704,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   year = {2017},
   month = Feb
 }",Sketch-Based Modeling; Sketch-Based Shape Retrieval; Data-Driven Methods,
-10.1145/3072959.3073675,Deep Extraction of Manga Structural Lines,"Chengze Li, Xueting Liu, Tien-Tsin Wong",2017,TOG,https://doi.org/10.1145/3072959.3073675,"@article{Li_2017,
+10.1145/3072959.3073675,Deep Extraction of Manga Structural Lines,"Chengze Li, Xueting Liu, Tien-Tsin Wong",2017,TOG,https://github.com/ljsabc/MangaLineExtraction_PyTorch,"@article{Li_2017,
   title = {Deep extraction of manga structural lines},
   volume = {36},
   ISSN = {1557-7368},
@@ -7740,7 +7740,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Oct,
   pages = {5552–5561}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Retrieval,
-10.1145/3072959.3073629,DeepSketch2Face: A Deep Learning Based Sketching System for 3D Face and Caricature Modeling,"Xiaoguang Han, Chang Gao, Yizhou Yu",2017,TOG,https://doi.org/10.1145/3072959.3073629,"@article{Han_2017,
+10.1145/3072959.3073629,DeepSketch2Face: A Deep Learning Based Sketching System for 3D Face and Caricature Modeling,"Xiaoguang Han, Chang Gao, Yizhou Yu",2017,TOG,https://i.cs.hku.hk/~xghan/publication.html,"@article{Han_2017,
   title = {DeepSketch2Face: a deep learning based sketching system for 3D face and caricature modeling},
   volume = {36},
   ISSN = {1557-7368},
@@ -7767,7 +7767,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = June,
   pages = {31–44}
 }",Sketch Animation; Sketch Inbetweening,
-10.1109/CVPR.2017.632,Image-to-Image Translation with Conditional Adversarial Networks,"Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros",2017,CVPR,https://phillipi.github.io/pix2pix/,"@inproceedings{Isola_2017,
+10.1109/CVPR.2017.632,Image-to-Image Translation with Conditional Adversarial Networks,"Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros",2017,CVPR,https://github.com/vamsi3/pix2pix,"@inproceedings{Isola_2017,
   title = {Image-to-Image Translation with Conditional Adversarial Networks},
   url = {http://dx.doi.org/10.1109/CVPR.2017.632},
   DOI = {10.1109/cvpr.2017.632},
@@ -7884,7 +7884,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Nov,
   pages = {1–13}
 }",Sketch Understanding,
-10.1145/3072959.3073603,Skippy: Single View 3D Curve Interactive Modeling,"Vojtěch Krs, Ersin Yumer, Nathan Carr, Bedrich Benes, Radomír Měch",2017,TOG,https://doi.org/10.1145/3072959.3073603,"@article{Krs_2017,
+10.1145/3072959.3073603,Skippy: Single View 3D Curve Interactive Modeling,"Vojtěch Krs, Ersin Yumer, Nathan Carr, Bedrich Benes, Radomír Měch",2017,TOG,https://www.cs.purdue.edu/cgvlab/www/publications/krs2017skippy/,"@article{Krs_2017,
   title = {Skippy: single view 3D curve interactive modeling},
   volume = {36},
   ISSN = {1557-7368},
@@ -8052,7 +8052,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = July,
   pages = {1–9}
 }",Sketch Understanding; Sketch Segmentation,
-10.1145/2897824.2925946,Fidelity Vs. Simplicity: a Global Approach to Line Drawing Vectorization,"Jean-Dominique Favreau, Florent Lafarge, Adrien Bousseau",2016,TOG,https://dl.acm.org/doi/10.1145/2897824.2925946,"@article{Favreau_2016,
+10.1145/2897824.2925946,Fidelity Vs. Simplicity: a Global Approach to Line Drawing Vectorization,"Jean-Dominique Favreau, Florent Lafarge, Adrien Bousseau",2016,TOG,https://radar.inria.fr/rapportsactivite/RA2016/titane/uid40.html,"@article{Favreau_2016,
   title = {Fidelity vs. simplicity: a global approach to line drawing vectorization},
   volume = {35},
   ISSN = {1557-7368},
@@ -8107,7 +8107,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   year = {2016},
   month = Mar
 }",Sketch-Based Modeling; Sketch-Based Shape Retrieval; Data-Driven Methods,
-10.1145/2897824.2925972,Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup,"Edgar Simo-Serra, Satoshi Iizuka, Kazuma Sasaki, Hiroshi Ishikawa",2016,TOG,https://dl.acm.org/doi/10.1145/2897824.2925972,"@article{Simo_Serra_2016,
+10.1145/2897824.2925972,Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup,"Edgar Simo-Serra, Satoshi Iizuka, Kazuma Sasaki, Hiroshi Ishikawa",2016,TOG,https://esslab.jp/~ess/research/sketch/,"@article{Simo_Serra_2016,
   title = {Learning to simplify: fully convolutional networks for rough sketch cleanup},
   volume = {35},
   ISSN = {1557-7368},
@@ -8187,7 +8187,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = July,
   pages = {1–12}
 }",Sketch-Based Image Synthesis; Sketch-Based Image Editing; Sketch Animation,
-10.1145/2897824.2925954,The Sketchy Database: Learning to Retrieve Badly Drawn Bunnies,"Patsorn Sangkloy, Nathan Burnell, Cusuh Ham, James Hays",2016,TOG,https://dl.acm.org/doi/10.1145/2897824.2925954,"@article{Sangkloy_2016,
+10.1145/2897824.2925954,The Sketchy Database: Learning to Retrieve Badly Drawn Bunnies,"Patsorn Sangkloy, Nathan Burnell, Cusuh Ham, James Hays",2016,TOG,https://patsorn.me/projects/sketchy/,"@article{Sangkloy_2016,
   title = {The sketchy database: learning to retrieve badly drawn bunnies},
   volume = {35},
   ISSN = {1557-7368},
@@ -8331,7 +8331,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Nov,
   pages = {1–11}
 }",Sketch Understanding; Stroke Intent; Sketch Animation,
-10.1145/2710026,BendFields: Regularized Curvature Fields from Rough Concept Sketches,"Emmanuel Iarussi, David Bommes, Adrien Bousseau",2015,TOG,https://doi.org/10.1145/2710026,"@article{Iarussi_2015,
+10.1145/2710026,BendFields: Regularized Curvature Fields from Rough Concept Sketches,"Emmanuel Iarussi, David Bommes, Adrien Bousseau",2015,TOG,https://vci.rwth-aachen.de/publication/03313/,"@article{Iarussi_2015,
   title = {BendFields: Regularized Curvature Fields from Rough Concept Sketches},
   volume = {34},
   ISSN = {1557-7368},
@@ -8370,7 +8370,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = June,
   pages = {1856–1865}
 }",Sketching and Thinking; Sketch Understanding; Sketch Segmentation,
-10.1145/2766948,SecondSkin: Sketch-Based Construction of Layered 3D Models,"Chris De Paoli, Karan Singh",2015,TOG,https://doi.org/10.1145/2766948,"@article{De_Paoli_2015,
+10.1145/2766948,SecondSkin: Sketch-Based Construction of Layered 3D Models,"Chris De Paoli, Karan Singh",2015,TOG,https://www.dgp.toronto.edu/~depaolic/projects/secondSkin/,"@article{De_Paoli_2015,
   title = {SecondSkin: sketch-based construction of layered 3D models},
   volume = {34},
   ISSN = {1557-7368},
@@ -8409,7 +8409,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = June,
   pages = {1875–1883}
 }",Sketch-Based Modeling; Sketch-Based Shape Retrieval; Data-Driven Methods,
-10.1145/2749458,Sketching Folds: Developable Surfaces from Non-Planar Silhouettes,"Amaury Jung, Stefanie Hahmann, Damien Rohmer, Antoine Begault, Laurence Boissieux, Marie-Paule Cani",2015,TOG,https://doi.org/10.1145/2749458,"@article{Jung_2015,
+10.1145/2749458,Sketching Folds: Developable Surfaces from Non-Planar Silhouettes,"Amaury Jung, Stefanie Hahmann, Damien Rohmer, Antoine Begault, Laurence Boissieux, Marie-Paule Cani",2015,TOG,https://www.inrialpes.fr/sed/people/boissieux/SKETCHING_FOLDS/paper.html,"@article{Jung_2015,
   title = {Sketching Folds: Developable Surfaces from Non-Planar Silhouettes},
   volume = {34},
   ISSN = {1557-7368},
@@ -8448,7 +8448,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Dec,
   pages = {504–512}
 }",Sketch Synthesis; Raster Sketch Extraction,
-10.1109/ICCV.2015.164,Holistically-Nested Edge Detection,"Saining Xie, Zhuowen Tu",2015,ICCV,https://doi.org/10.1109/ICCV.2015.164,"@inproceedings{Xie_2015,
+10.1109/ICCV.2015.164,Holistically-Nested Edge Detection,"Saining Xie, Zhuowen Tu",2015,ICCV,https://github.com/Ashishkumar-hub/HED,"@inproceedings{Xie_2015,
   title = {Holistically-Nested Edge Detection},
   url = {http://dx.doi.org/10.1109/ICCV.2015.164},
   DOI = {10.1109/iccv.2015.164},
@@ -8558,7 +8558,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Nov,
   pages = {1–10}
 }",Sketch Understanding; Sketch Segmentation,
-10.1145/2601097.2601190,DecoBrush: Drawing Structured Decorative Patterns by Example,"Jingwan Lu, Connelly Barnes, Connie Wan, Paul Asente, Radomir Mech, Adam Finkelstein",2014,TOG,https://doi.org/10.1145/2601097.2601190,"@article{Lu_2014,
+10.1145/2601097.2601190,DecoBrush: Drawing Structured Decorative Patterns by Example,"Jingwan Lu, Connelly Barnes, Connie Wan, Paul Asente, Radomir Mech, Adam Finkelstein",2014,TOG,https://gfx.cs.princeton.edu/pubs/Lu_2014_DDS/,"@article{Lu_2014,
   title = {DecoBrush: drawing structured decorative patterns by example},
   volume = {33},
   ISSN = {1557-7368},
@@ -8640,7 +8640,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   pages = {395–405},
   collection = {UIST ’14}
 }",Sketch Understanding,
-10.1145/2601097.2601128,True2Form: 3D Curve Networks from 2D Sketches via Selective Regularization,"Baoxuan Xu, William Chang, Alla Sheffer, Adrien Bousseau, James McCrae, Karan Singh",2014,TOG,https://dl.acm.org/doi/10.1145/2601097.2601128,"@article{Xu_2014,
+10.1145/2601097.2601128,True2Form: 3D Curve Networks from 2D Sketches via Selective Regularization,"Baoxuan Xu, William Chang, Alla Sheffer, Adrien Bousseau, James McCrae, Karan Singh",2014,TOG,https://www.cs.ubc.ca/labs/imager/tr/2014/True2Form/index.htm,"@article{Xu_2014,
   title = {True2Form: 3D curve networks from 2D sketches via selective regularization},
   volume = {33},
   ISSN = {1557-7368},
@@ -8733,7 +8733,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Nov,
   pages = {101–102}
 }",Sketching and Thinking,
-10.1145/2461912.2461998,RealBrush: Painting with Examples of Physical Media,"Jingwan Lu, Connelly Barnes, Stephen DiVerdi, Adam Finkelstein",2013,TOG,https://doi.org/10.1145/2461912.2461998,"@article{Lu_2013,
+10.1145/2461912.2461998,RealBrush: Painting with Examples of Physical Media,"Jingwan Lu, Connelly Barnes, Stephen DiVerdi, Adam Finkelstein",2013,TOG,https://gfx.cs.princeton.edu/pubs/Lu_2013_RPW/index.php,"@article{Lu_2013,
   title = {RealBrush: painting with examples of physical media},
   volume = {32},
   ISSN = {1557-7368},
@@ -8800,7 +8800,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = July,
   pages = {1–13}
 }",Sketch Rendering,
-10.1145/2461912.2461964,Style and Abstraction in Portrait Sketching,"Itamar Berger, Ariel Shamir, Moshe Mahler, Elizabeth Carter, Jessica Hodgins",2013,TOG,https://dl.acm.org/doi/10.1145/2461912.2461964,"@article{Berger_2013,
+10.1145/2461912.2461964,Style and Abstraction in Portrait Sketching,"Itamar Berger, Ariel Shamir, Moshe Mahler, Elizabeth Carter, Jessica Hodgins",2013,TOG,https://studios.disneyresearch.com/2013/07/21/style-and-abstraction-in-portrait-sketching/,"@article{Berger_2013,
   title = {Style and abstraction in portrait sketching},
   volume = {32},
   ISSN = {1557-7368},
@@ -8864,7 +8864,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Nov,
   pages = {1–9}
 }",Sketch Processing; Vectorization,
-10.1145/2185520.2185541,CrossShade: Shading Concept Sketches Using Cross-Section Curves,"Cloud Shao, Adrien Bousseau, Alla Sheffer, Karan Singh",2012,TOG,https://doi.org/10.1145/2185520.2185541,"@article{Shao_2012,
+10.1145/2185520.2185541,CrossShade: Shading Concept Sketches Using Cross-Section Curves,"Cloud Shao, Adrien Bousseau, Alla Sheffer, Karan Singh",2012,TOG,https://www-sop.inria.fr/reves/Basilic/2012/SBSS12/,"@article{Shao_2012,
   title = {CrossShade: shading concept sketches using cross-section curves},
   volume = {31},
   ISSN = {1557-7368},
@@ -8904,7 +8904,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   year = {2012},
   pages = {626–639}
 }",Sketch Understanding; Sketch Segmentation,
-10.1145/2185520.2185542,HelpingHand: Example-Based Stroke Stylization,"Jingwan Lu, Fisher Yu, Adam Finkelstein, Stephen DiVerdi",2012,TOG,https://doi.org/10.1145/2185520.2185542,"@article{Lu_2012,
+10.1145/2185520.2185542,HelpingHand: Example-Based Stroke Stylization,"Jingwan Lu, Fisher Yu, Adam Finkelstein, Stephen DiVerdi",2012,TOG,https://pixl.cs.princeton.edu/pubs/Lu_2012_HES/index.php,"@article{Lu_2012,
   title = {HelpingHand: example-based stroke stylization},
   volume = {31},
   ISSN = {1557-7368},
@@ -8932,7 +8932,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = July,
   pages = {1–10}
 }",Sketching and Thinking,
-10.1145/2077341.2077342,Learning Hatching for Pen-and-Ink Illustration of Surfaces,"Evangelos Kalogerakis, Derek Nowrouzezahrai, Simon Breslav, Aaron Hertzmann",2012,TOG,https://doi.org/10.1145/2077341.2077342,"@article{Kalogerakis_2012,
+10.1145/2077341.2077342,Learning Hatching for Pen-and-Ink Illustration of Surfaces,"Evangelos Kalogerakis, Derek Nowrouzezahrai, Simon Breslav, Aaron Hertzmann",2012,TOG,https://www.research.autodesk.com/publications/learning-hatching-for-pen-and-ink-illustration-of-surfaces/,"@article{Kalogerakis_2012,
   title = {Learning hatching for pen-and-ink illustration of surfaces},
   volume = {31},
   ISSN = {1557-7368},
@@ -8946,7 +8946,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Jan,
   pages = {1–17}
 }",Sketch Rendering; Sketch-Based Modeling; Geometry-Based Methods; Data-Driven Methods; Non-Photorealistic Rendering,Yes
-10.1145/2207676.2208302,Vignette: Interactive Texture Design and Manipulation with Freeform Gestures for Pen-And-Ink Illustration,"Rubaiat Habib Kazi, Takeo Igarashi, Shengdong Zhao, Richard Davis",2012,CHI,https://doi.org/10.1145/2207676.2208302,"@inproceedings{Kazi_2012,
+10.1145/2207676.2208302,Vignette: Interactive Texture Design and Manipulation with Freeform Gestures for Pen-And-Ink Illustration,"Rubaiat Habib Kazi, Takeo Igarashi, Shengdong Zhao, Richard Davis",2012,CHI,https://www.jst.go.jp/erato/igarashi/en/projects/vignette/index.html,"@inproceedings{Kazi_2012,
   series = {CHI ’12},
   title = {Vignette: interactive texture design and manipulation with freeform gestures for pen-and-ink illustration},
   url = {http://dx.doi.org/10.1145/2207676.2208302},
@@ -8970,7 +8970,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   volume = {25},
   year = {2012}
 }",Sketch Synthesis; Raster Sketch Extraction,
-10.1145/2024156.2024167,Animated Construction of Line Drawings,"Hongbo Fu, Shizhe Zhou, Ligang Liu, Niloy J. Mitra",2011,SIGGRAPH Asia,https://doi.org/10.1145/2024156.2024167,"@inproceedings{Fu_2011,
+10.1145/2024156.2024167,Animated Construction of Line Drawings,"Hongbo Fu, Shizhe Zhou, Ligang Liu, Niloy J. Mitra",2011,SIGGRAPH Asia,https://hongbofu.people.ust.hk/projects/animatedConstructionOfLineDrawings_SiggA11/index.html,"@inproceedings{Fu_2011,
   series = {SA ’11},
   title = {Animated construction of line drawings},
   url = {http://dx.doi.org/10.1145/2024156.2024167},
@@ -9199,7 +9199,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Jan,
   pages = {1–13}
 }",Sketch Rendering,
-10.1145/1531326.1531334,How Well Do Line Drawings Depict Shape?,"Forrester Cole, Kevin Sanik, Doug DeCarlo, Adam Finkelstein, Thomas Funkhouser, Szymon Rusinkiewicz, Manish Singh",2009,TOG,https://doi.org/10.1145/1531326.1531334,"@article{Cole_2009,
+10.1145/1531326.1531334,How Well Do Line Drawings Depict Shape?,"Forrester Cole, Kevin Sanik, Doug DeCarlo, Adam Finkelstein, Thomas Funkhouser, Szymon Rusinkiewicz, Manish Singh",2009,TOG,https://gfx.cs.princeton.edu/pubs/Cole_2009_HWD/index.php,"@article{Cole_2009,
   title = {How well do line drawings depict shape?},
   volume = {28},
   ISSN = {1557-7368},
@@ -9213,7 +9213,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = July,
   pages = {1–9}
 }",Sketch Rendering,Yes
-10.1145/1618452.1618470,Sketch2Photo: Internet Image Montage,"Tao Chen, Ming-Ming Cheng, Ping Tan, Ariel Shamir, Shi-Min Hu",2009,TOG,https://doi.org/10.1145/1618452.1618470,"@article{Chen_2009,
+10.1145/1618452.1618470,Sketch2Photo: Internet Image Montage,"Tao Chen, Ming-Ming Cheng, Ping Tan, Ariel Shamir, Shi-Min Hu",2009,TOG,https://cg.cs.tsinghua.edu.cn/montage/main.htm,"@article{Chen_2009,
   title = {Sketch2Photo: internet image montage},
   volume = {28},
   ISSN = {1557-7368},
@@ -9227,7 +9227,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Dec,
   pages = {1–10}
 }",Sketch Understanding,Yes
-10.1145/1592440.1592443,The ModelCraft Framework: Capturing Freehand Annotations and Edits to Facilitate the 3D Model Design Process Using a Digital Pen,"Hyunyoung Song, François Guimbretière, Hod Lipson",2009,TOCHI,https://doi.org/10.1145/1592440.1592443,"@article{Song_2009,
+10.1145/1592440.1592443,The ModelCraft Framework: Capturing Freehand Annotations and Edits to Facilitate the 3D Model Design Process Using a Digital Pen,"Hyunyoung Song, François Guimbretière, Hod Lipson",2009,TOCHI,https://hcie.csail.mit.edu/fabpub/,"@article{Song_2009,
   title = {The ModelCraft framework: Capturing freehand annotations and edits to facilitate the 3D model design process using a digital pen},
   volume = {16},
   ISSN = {1557-7325},
@@ -9255,7 +9255,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Mar,
   pages = {599–608}
 }",Sketch-Based Image Synthesis; Sketch Colorization,
-10.1145/1360612.1360691,Diffusion Curves: a Vector Representation for Smooth-Shaded Images,"Alexandrina Orzan, Adrien Bousseau, Holger Winnemöller, Pascal Barla, Joëlle Thollot, David Salesin",2008,TOG,https://doi.org/10.1145/1360612.1360691,"@article{Orzan_2008,
+10.1145/1360612.1360691,Diffusion Curves: a Vector Representation for Smooth-Shaded Images,"Alexandrina Orzan, Adrien Bousseau, Holger Winnemöller, Pascal Barla, Joëlle Thollot, David Salesin",2008,TOG,https://research.adobe.com/publication/diffusion-curves-a-vector-representation-for-smooth-shaded-images-2/,"@article{Orzan_2008,
   title = {Diffusion curves: a vector representation for smooth-shaded images},
   volume = {27},
   ISSN = {1557-7368},
@@ -9269,7 +9269,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Aug,
   pages = {1–8}
 }",Sketch Representations; Sketch Rendering; Sketch-Based Image Synthesis; Sketch-Based Image Generation; Diffusion-Based Methods; Sketch-Based Modeling; Geometry-Based Methods,Yes
-10.1145/1449715.1449740,ILoveSketch: as-Natural-As-Possible Sketching System for Creating 3d Curve Models,"Seok-Hyung Bae, Ravin Balakrishnan, Karan Singh",2008,UIST,https://doi.org/10.1145/1449715.1449740,"@inproceedings{Bae_2008,
+10.1145/1449715.1449740,ILoveSketch: as-Natural-As-Possible Sketching System for Creating 3d Curve Models,"Seok-Hyung Bae, Ravin Balakrishnan, Karan Singh",2008,UIST,https://www.dgp.toronto.edu/~shbae/ilovesketch.htm,"@inproceedings{Bae_2008,
   series = {UIST08},
   title = {ILoveSketch: as-natural-as-possible sketching system for creating 3d curve models},
   url = {http://dx.doi.org/10.1145/1449715.1449740},
@@ -9309,7 +9309,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   pages = {1–7},
   collection = {SIGGRAPH ’08}
 }",Sketch-Based Image Synthesis,
-10.1145/1360612.1360687,Where Do People Draw Lines?,"Forrester Cole, Aleksey Golovinskiy, Alex Limpaecher, Heather Stoddart Barros, Adam Finkelstein, Thomas Funkhouser, Szymon Rusinkiewicz",2008,TOG,https://doi.org/10.1145/1360612.1360687,"@article{Cole_2008,
+10.1145/1360612.1360687,Where Do People Draw Lines?,"Forrester Cole, Aleksey Golovinskiy, Alex Limpaecher, Heather Stoddart Barros, Adam Finkelstein, Thomas Funkhouser, Szymon Rusinkiewicz",2008,TOG,https://pixl.cs.princeton.edu/proj/ld3d/lineset/index.html,"@article{Cole_2008,
   title = {Where do people draw lines?},
   volume = {27},
   ISSN = {1557-7368},
@@ -9323,7 +9323,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Aug,
   pages = {1–11}
 }",Sketching and Thinking,Yes
-10.1145/1276377.1276401,Apparent Ridges for Line Drawing,"Tilke Judd, Frédo Durand, Edward Adelson",2007,TOG,https://doi.org/10.1145/1276377.1276401,"@article{Judd_2007,
+10.1145/1276377.1276401,Apparent Ridges for Line Drawing,"Tilke Judd, Frédo Durand, Edward Adelson",2007,TOG,https://www.csail.mit.edu/node/5938,"@article{Judd_2007,
   title = {Apparent ridges for line drawing},
   volume = {26},
   ISSN = {1557-7368},
@@ -9405,7 +9405,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = July,
   pages = {1214–1220}
 }",Sketch-Based Image Synthesis; Sketch Colorization,
-10.1145/1073204.1073323,As-Rigid-As-Possible Shape Manipulation,"Takeo Igarashi, Tomer Moscovich, John F. Hughes",2005,TOG,https://dl.acm.org/doi/10.1145/1073204.1073323,"@article{Igarashi_2005,
+10.1145/1073204.1073323,As-Rigid-As-Possible Shape Manipulation,"Takeo Igarashi, Tomer Moscovich, John F. Hughes",2005,TOG,https://pages.graphics.cs.wisc.edu/777-13/2013/04/19/reading-20-as-rigid-as-possible-and-other-deformations/,"@article{Igarashi_2005,
   title = {As-rigid-as-possible shape manipulation},
   volume = {24},
   ISSN = {1557-7368},
@@ -9431,7 +9431,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   doi = ""10.1007/1-56898-657-2_9"",
   url = ""https://doi.org/10.1007/1-56898-657-2_9""
 }",Sketching and Thinking,Yes
-10.1145/1015706.1015768,Ridge-Valley Lines on Meshes via Implicit Surface Fitting,"Yutaka Ohtake, Alexander Belyaev, Hans-Peter Seidel",2004,TOG,https://doi.org/10.1145/1015706.1015768,"@article{Ohtake_2004,
+10.1145/1015706.1015768,Ridge-Valley Lines on Meshes via Implicit Surface Fitting,"Yutaka Ohtake, Alexander Belyaev, Hans-Peter Seidel",2004,TOG,https://researchportal.hw.ac.uk/en/publications/ridge-valley-lines-on-meshes-via-implicit-surface-fitting/,"@article{Ohtake_2004,
   title = {Ridge-valley lines on meshes via implicit surface fitting},
   volume = {23},
   ISSN = {1557-7368},
@@ -9445,7 +9445,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = Aug,
   pages = {609–612}
 }",Sketch-Based Modeling; Geometry-Based Methods; Data-Driven Methods,Yes
-10.1145/882262.882354,Suggestive Contours for Conveying Shape,"Doug DeCarlo, Adam Finkelstein, Szymon Rusinkiewicz, Anthony Santella",2003,TOG,https://doi.org/10.1145/882262.882354,"@article{DeCarlo_2003,
+10.1145/882262.882354,Suggestive Contours for Conveying Shape,"Doug DeCarlo, Adam Finkelstein, Szymon Rusinkiewicz, Anthony Santella",2003,TOG,https://gfx.cs.princeton.edu/gfx/pubs/DeCarlo_2003_SCF/index.php,"@article{DeCarlo_2003,
   title = {Suggestive contours for conveying shape},
   volume = {22},
   ISSN = {1557-7368},
@@ -9472,7 +9472,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   pages = {125–132},
   collection = {NPAR02}
 }",Sketch Animation; Sketch Inbetweening,
-N/A,What Do Sketches Say About Thinking?,Barbara Tversky,2002,AAAI,https://cdn.aaai.org/Symposia/Spring/2002/SS-02-08/SS02-08-022.pdf,"@inproceedings{tversky2002sketches,
+N/A,What Do Sketches Say About Thinking?,Barbara Tversky,2002,AAAI,https://aiinternational.org/Library/Symposia/Spring/2002/ss02-08-022.php,"@inproceedings{tversky2002sketches,
   title = {What Do Sketches Say About Thinking?},
   author = {Tversky, Barbara},
   booktitle = {AAAI Spring Symposium: Sketch Understanding},
@@ -9517,7 +9517,7 @@ N/A,What Do Sketches Say About Thinking?,Barbara Tversky,2002,AAAI,https://cdn.a
   pages = {13–18},
   collection = {SIGGRAPH ’00}
 }",Sketch Rendering; Non-Photorealistic Rendering,
-10.1145/344779.345074,Illustrating Smooth Surfaces,"Aaron Hertzmann, Denis Zorin",2000,SIGGRAPH,https://doi.org/10.1145/344779.345074,"@inproceedings{Hertzmann_2000,
+10.1145/344779.345074,Illustrating Smooth Surfaces,"Aaron Hertzmann, Denis Zorin",2000,SIGGRAPH,https://mrl.cs.nyu.edu/publications/illustrating-smooth/,"@inproceedings{Hertzmann_2000,
   series = {SIGGRAPH ’00},
   title = {Illustrating smooth surfaces},
   url = {http://dx.doi.org/10.1145/344779.345074},
@@ -9529,7 +9529,7 @@ N/A,What Do Sketches Say About Thinking?,Barbara Tversky,2002,AAAI,https://cdn.a
   pages = {517–526},
   collection = {SIGGRAPH ’00}
 }",Sketch-Based Modeling; Geometry-Based Methods; Non-Photorealistic Rendering,Yes
-10.1145/311535.311602,Teddy: a Sketching Interface for 3D Freeform Design,"Takeo Igarashi, Satoshi Matsuoka, Hidehiko Tanaka",1999,SIGGRAPH,https://doi.org/10.1145/311535.311602,"@inproceedings{Igarashi_1999,
+10.1145/311535.311602,Teddy: a Sketching Interface for 3D Freeform Design,"Takeo Igarashi, Satoshi Matsuoka, Hidehiko Tanaka",1999,SIGGRAPH,https://www-ui.is.s.u-tokyo.ac.jp/~takeo/teddy/teddy.htm,"@inproceedings{Igarashi_1999,
   series = {SIGGRAPH ’99},
   title = {Teddy: a sketching interface for 3D freeform design},
   url = {http://dx.doi.org/10.1145/311535.311602},
