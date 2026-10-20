@@ -4118,7 +4118,7 @@ N/A,SketchKnitter: Vectorized Sketch Generation with Diffusion Models,"Qiang Wan
   pages = {1–13}
 }",Sketch Processing; Vectorization,
 10.1609/aaai.v38i3.27987,Optimize & Reduce: A Top-Down Approach for Image Vectorization,"Or Hirschorn, Amir Jevnisek, Shai Avidan",2024,AAAI,https://doi.org/10.1609/aaai.v38i3.27987,"@inproceedings{https://doi.org/10.48550/arxiv.2312.11334,
-  title = {{Optimize & Reduce: A Top-Down Approach for Image Vectorization}},
+  title = {{Optimize \& Reduce: A Top-Down Approach for Image Vectorization}},
   author = {Or Hirschorn and Amir Jevnisek and Shai Avidan},
   year = {2024},
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
@@ -6604,7 +6604,7 @@ N/A,SketchODE: Learning Neural Sketch Representation in Continuous Time,"Ayan Da
   pages = {1–12},
   collection = {CHI ’19}
 }",Sketch Rendering,
-10.1109/iccv.2019.00126,Interactive Sketch \& Fill: Multiclass Sketch-to-Image Translation,"Arnab Ghosh, Richard Zhang, Puneet Dokania, Oliver Wang, Alexei Efros, Philip Torr, Eli Shechtman",2019,ICCV,https://doi.org/10.1109/ICCV.2019.00126,"@inproceedings{Ghosh_2019,
+10.1109/iccv.2019.00126,Interactive Sketch & Fill: Multiclass Sketch-to-Image Translation,"Arnab Ghosh, Richard Zhang, Puneet Dokania, Oliver Wang, Alexei Efros, Philip Torr, Eli Shechtman",2019,ICCV,https://doi.org/10.1109/ICCV.2019.00126,"@inproceedings{Ghosh_2019,
   title = {{Interactive Sketch \& Fill: Multiclass Sketch-to-Image Translation}},
   url = {http://dx.doi.org/10.1109/iccv.2019.00126},
   DOI = {10.1109/iccv.2019.00126},
@@ -7321,7 +7321,7 @@ N/A,StrokeNet: A Neural Painting Environment,"Ningyuan Zheng, Yifan Jiang, Dingj
   month = July,
   pages = {1–15}
 }",Sketch Understanding; Stroke Intent; Sketch-Based Modeling; Geometry-Based Methods; Sketch Processing; Vectorization,Yes
-10.1145/3173574.3173759,SymbiosisSketch: Combining 2D \& 3D Sketching for Designing Detailed 3D Objects in Situ,"Rahul Arora, Rubaiat Habib Kazi, Tovi Grossman, George Fitzmaurice, Karan Singh",2018,CHI,https://www.research.autodesk.com/publications/symbiosissketch-combining-2d-3d-sketching-for-designing-detailed-3d-objects-in-situ/,"@inproceedings{Arora_2018,
+10.1145/3173574.3173759,SymbiosisSketch: Combining 2D & 3D Sketching for Designing Detailed 3D Objects in Situ,"Rahul Arora, Rubaiat Habib Kazi, Tovi Grossman, George Fitzmaurice, Karan Singh",2018,CHI,https://www.research.autodesk.com/publications/symbiosissketch-combining-2d-3d-sketching-for-designing-detailed-3d-objects-in-situ/,"@inproceedings{Arora_2018,
   series = {CHI ’18},
   title = {{SymbiosisSketch: Combining 2D \& 3D Sketching for Designing Detailed 3D Objects in Situ}},
   url = {http://dx.doi.org/10.1145/3173574.3173759},
