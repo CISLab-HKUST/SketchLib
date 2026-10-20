@@ -2,7 +2,7 @@
 
 **SketchLib** is an online library for research on sketching, drawing, and vector graphics. It brings papers from across sketch understanding, sketch-based image synthesis, 3D sketching, modeling, processing, animation, and non-photorealistic rendering into one searchable collection.
 
-The library is a lightweight static website backed by [`papers.csv`](papers.csv). It currently contains **486 papers**. Browse by topic, year, or venue; search titles, authors, and bibliographic details; and follow links to the paper or DOI.
+The library is a lightweight static website backed by [`papers.csv`](papers.csv). It currently contains **799 papers**. Browse by topic, year, or venue; search titles, authors, and bibliographic details; and follow links to the paper or DOI.
 
 ## Features
 
@@ -58,6 +58,7 @@ Use these exact topic names in the `Labels` column. Multiple labels for a paper 
 - Sketch Processing
   - Sketch Cleanup
   - Vectorization
+  - Vector Graphics Editing
 - Sketch Animation
   - Drawing Process Synthesis
   - Sketch Inbetweening
