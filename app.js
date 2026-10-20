@@ -14,7 +14,7 @@ const topicHierarchy = [
   ["Sketch-Based Image Synthesis", 0], ["Sketch-Based Image Retrieval", 1], ["Sketch-Based Image Generation", 1], ["GAN-Based Methods", 2], ["Diffusion-Based Methods", 2], ["Sketch-Based Image Editing", 1], ["Sketch Colorization", 1],
   ["3D Sketching", 0], ["Sketching in VR/AR", 1], ["Lifting 2D Sketches", 1],
   ["Sketch-Based Modeling", 0], ["Sketch-Based Shape Retrieval", 1], ["Geometry-Based Methods", 1], ["Data-Driven Methods", 1],
-  ["Sketch Processing", 0], ["Sketch Cleanup", 1], ["Vectorization", 1],
+  ["Sketch Processing", 0], ["Sketch Cleanup", 1], ["Vectorization", 1], ["Vector Graphics Editing", 1],
   ["Sketch Animation", 0], ["Drawing Process Synthesis", 1], ["Sketch Inbetweening", 1],
   ["Sketch Synthesis", 0], ["Raster Sketch Extraction", 1], ["Vector Sketch Generation", 1],
   ["Non-Photorealistic Rendering", 0]

@@ -2,7 +2,7 @@
 
 **SketchLib** is an online library for research on sketching, drawing, and vector graphics. It brings papers from across sketch understanding, sketch-based image synthesis, 3D sketching, modeling, processing, animation, and non-photorealistic rendering into one searchable collection.
 
-The library is a lightweight static website backed by [`papers.csv`](papers.csv). It currently contains **486 papers**. Browse by topic, year, or venue; search titles, authors, and bibliographic details; and follow links to the paper or DOI.
+The library is a lightweight static website backed by [`papers.csv`](papers.csv). It currently contains **799 papers**. Browse by topic, year, or venue; search titles, authors, and bibliographic details; and follow links to the paper or DOI.
 
 ## Features
 
@@ -58,6 +58,7 @@ Use these exact topic names in the `Labels` column. Multiple labels for a paper 
 - Sketch Processing
   - Sketch Cleanup
   - Vectorization
+  - Vector Graphics Editing
 - Sketch Animation
   - Drawing Process Synthesis
   - Sketch Inbetweening
@@ -74,14 +75,25 @@ Use these exact topic names in the `Labels` column. Multiple labels for a paper 
 | --- | --- |
 | `DOI` | DOI identifier for the publication |
 | `Paper Title` | Full paper title |
-| `Authors` | Full author list |
+| `Authors` | Complete author list in given-name-first order, separated by a comma and a space, e.g. `Nadav Benedek, Ariel Shamir, Ohad Fried` |
 | `Year` | Publication year |
 | `Publication Venue` | Venue name or abbreviation shown in the library |
 | `URL` | Link to the paper or its publisher page |
 | `BibTeX` | Bibliographic entry for citation managers |
 | `Labels` | One or more taxonomy labels, separated by semicolons |
+| `Selected` | Optional curation marker retained in the dataset |
 
 CSV values containing commas, quotes, or line breaks must follow standard CSV quoting rules. The website reads the column names above directly, so preserve them when editing the dataset.
+
+Display titles use title case while preserving method names, acronyms, and version identifiers. Keep the BibTeX title consistent with the display title and protect its capitalization with braces. BibTeX author names use standard BibTeX syntax with `and` between authors; the comma-separated given-name-first rule applies to the `Authors` column.
+
+Use `Vector Graphics Editing` for geometry, structure, or program edits to vector graphics and icons, including editing benchmarks. Combine it with `Vectorization` when the method also reconstructs vector geometry from raster input, and with `Sketch Animation` when it edits animated vector content. Generation-only papers should use synthesis labels rather than the editing label. See [`label-audit.csv`](label-audit.csv) for the nine papers added in this contribution.
+
+## Publication audit
+
+[`publication-audit.csv`](publication-audit.csv) records the 2026-10-20 audit of all 126 entries previously labelled `arXiv`. It lists the checked arXiv record, publisher/official-conference source where verified, resulting metadata, and the reason for each decision. Eighty-nine entries were updated to verified publication or explicitly identified acceptance/workshop records; one of these was merged into an existing IJCAI paper. Thirty-seven entries remain labelled `arXiv` because a published version was not verified. This is not a claim that those papers are unpublished. Records supported only by an author's acceptance announcement are distinguished from final proceedings records, and workshop papers are distinguished from main-track papers. The audit explicitly documents conflicting publication and authorship evidence for the Paint Bucket Colorization preprint, whose existing author list is retained pending a final publisher record.
+
+The audit also flags the administratively removed Sakuga-42M arXiv record for maintainer review. Its row is retained rather than silently removed.
 
 ## Add or update a paper
 
