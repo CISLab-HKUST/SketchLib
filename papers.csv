@@ -598,12 +598,15 @@ N/A,Modeling the Visual Ambiguity of Human Sketches,"Yang Zhou, Ping Ni, Jin Wan
   year = {2026},
   copyright = {Creative Commons Attribution 4.0 International}
 }",Sketch Animation,
-,VAnim: Rendering-Aware Sparse State Modeling for Structure-Preserving Vector Animation,"Guotao Liang, Zhangcheng Wang, Chuang Wang, Juncheng Hu, Haitao Zhou, Junhua Liu, Jing Zhang, Dong Xu, Qian Yu",2026,ICML,https://yukinonooo.github.io/VAnimProject/,"@inproceedings{https://doi.org/10.48550/arxiv.2605.01517,
+,VAnim: Rendering-Aware Sparse State Modeling for Structure-Preserving Vector Animation,"Guotao Liang, Zhangcheng Wang, Chuang Wang, Juncheng Hu, Haitao Zhou, Junhua Liu, Jing Zhang, Dong Xu, Qian Yu",2026,ICML,https://proceedings.mlr.press/v306/liang26w.html,"@inproceedings{https://doi.org/10.48550/arxiv.2605.01517,
   title = {{VAnim: Rendering-Aware Sparse State Modeling for Structure-Preserving Vector Animation}},
   author = {Guotao Liang and Zhangcheng Wang and Chuang Wang and Juncheng Hu and Haitao Zhou and Junhua Liu and Jing Zhang and Dong Xu and Qian Yu},
   year = {2026},
   booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
-  url = {https://yukinonooo.github.io/VAnimProject/}
+  url = {https://proceedings.mlr.press/v306/liang26w.html},
+  volume = {306},
+  pages = {73572--73592},
+  publisher = {PMLR}
 }",Sketch Animation,
 ,LottieGPT: Tokenizing Vector Animation for Autoregressive Generation,"Junhao Chen, Kejun Gao, Yuehan Cui, Mingze Sun, Mingjin Chen, Shaohui Wang, Xiaoxiao Long, Fei Ma, Qi Tian, Hao Zhao, Ruqi Huang",2026,CVPR,https://openaccess.thecvf.com/content/CVPR2026/html/Chen_LottieGPT_Tokenizing_Vector_Animation_for_Autoregressive_Generation_CVPR_2026_paper.html,"@inproceedings{https://doi.org/10.48550/arxiv.2604.11792,
   title = {{LottieGPT: Tokenizing Vector Animation for Autoregressive Generation}},
